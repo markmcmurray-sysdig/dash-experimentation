@@ -1,0 +1,1779 @@
+AGENT_VERSION,CLUSTER_TYPE,ARCHITECTURE,K8S_VERSION,OS,Kernel,runtime_type,runtime_version,TYPE_INSTALLATION,AGENT_INSTALL_METHOD
+12.5.0-rc,,arm64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.15.0-1099-aws,docker,18.09.7,AGENT,docker
+12.7.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,docker,20.10.7,AGENT,docker
+12.7.0-rc,okd4,x86_64,v1.19.16+6175753,Red Hat Enterprise Linux CoreOS 46.82.202203141332-0 (Ootpa),4.18.0-193.79.1.el8_2.x86_64,cri-o,1.19.5-3.rhaos4.6.git91f8458.el8,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-arm64,,arm64,,Amazon Linux 2,5.10.149-133.644.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.8.0-rc2,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,docker,20.10.17,AGENT,docker
+12.9.1-rc1,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.aarch64,docker,20.10.21,SLIM,docker
+12.10.1-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.1-rc1,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.6.0-rc,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,docker,20.10.21,SLIM,docker
+12.10.0-rc1,,x86_64,,SLES 15-SP4,5.14.21-150400.24.33-default,docker,20.10.17-ce,SLIM,docker
+SMAGENT3619-linux-amd64,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.9.1-rc2,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,docker,20.10.12,SLIM,docker
+12.9.1-rc2,kops,x86_64,v1.25.4,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.9.1-rc2,gke,x86_64,v1.23.8-gke.1900,Container-Optimized OS from Google,5.10.127+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,AGENT,helm
+12.8.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,,,AGENT,native
+12.8.0-rc2,kops,x86_64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.13,SLIM,helm
+12.8.1-rc1,kops,x86_64,v1.24.3,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.8.0,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.15.0-1017-aws,,,AGENT,native
+12.8.1-rc1,,arm64,,Fedora Linux 36 (Cloud Edition),5.18.18-200.fc36.aarch64,docker,20.10.17,AGENT,docker
+12.11.0-rc3,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc1,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-23-arm64,docker,18.09.1,SLIM,docker
+12.11.0-rc1,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.10.1,iks,x86_64,v1.25.6+IKS,Ubuntu 18.04.6 LTS,4.15.0-202-generic,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+upgrade_patchelf-linux-amd64,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,23.0.0,SLIM,docker
+12.7.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1075-aws,docker,20.10.7,AGENT,docker
+12.7.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1078-aws,,,AGENT,native
+12.7.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.14-200.fc35.x86_64,docker,20.10.17,AGENT,docker
+12.5.0-rc,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1071-aws,docker,20.10.7,AGENT,docker
+12.5.0-rc,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1013-aws,docker,20.10.12,AGENT,docker
+12.8.0-rc1,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+AGENT_PROBE,,,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,docker,20.10.5+dfsg1,,
+12.9.0-rc1,,arm64,,Amazon Linux 2,5.10.135-122.509.amzn2.aarch64,docker,20.10.17,AGENT,docker
+12.9.0-rc1,okd4,x86_64,v1.23.5+012e945,Red Hat Enterprise Linux CoreOS 410.84.202209061703-0 (Ootpa),4.18.0-305.62.1.el8_4.x86_64,cri-o,1.23.3-16.rhaos4.10.gitd7c9b35.el8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,docker,20.10.7,AGENT,docker
+12.8.0-rc2,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.9.1-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,,,SLIM,native
+0.4.zzhongcheng3843,gke,x86_64,v1.24.7-gke.900,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,iks,x86_64,v1.24.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-200-generic,containerd,1.6.12,SLIM,helm
+12.10.1-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-22-cloud-amd64,,,SLIM,native
+12.10.0-rc2,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,docker,20.10.12,SLIM,docker
+12.6.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.9.0-rc2,,arm64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.26.1.el9_0.aarch64,docker,20.10.18,AGENT,docker
+latest,kops,x86_64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,AGENT,kubernetes
+12.10.0-rc1,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,SLIM,docker
+12.9.0-rc3,,x86_64,,Fedora Linux 35 (Cloud Edition),5.19.12-100.fc35.x86_64,docker,20.10.18,AGENT,docker
+12.9.0-rc3,,x86_64,,Fedora Linux 36 (Cloud Edition),5.19.12-200.fc36.x86_64,docker,20.10.18,AGENT,docker
+latest,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1086-aws,,,AGENT,native
+latest,,x86_64,,Fedora Linux 36 (Cloud Edition),5.19.15-201.fc36.x86_64,docker,20.10.19,AGENT,docker
+dev,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,docker,20.10.12,SLIM,docker
+12.4.0-rc,okd4,x86_64,v1.21.6+4b61f94,Red Hat Enterprise Linux CoreOS 48.84.202202142303-0 (Ootpa),4.18.0-305.34.2.el8_4.x86_64,cri-o,1.21.4-10.rhaos4.8.gitc058478.el8,SLIM & AGENT,kubernetes & helm
+SMAGENT3619-linux-amd64,,x86_64,,Amazon Linux 2,4.14.273-207.502.amzn2.x86_64,docker,20.10.7,AGENT,docker
+12.4.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.59.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.8.0-rc1,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+dev,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,docker,20.10.12,SLIM,docker
+dev,,arm64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,SLIM,docker
+12.11.0-rc1,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,,,SLIM,native
+12.11.0-rc2,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,,,SLIM,native
+dev,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc3,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc3,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,,,SLIM,native
+dev,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM,helm
+0.1.1dev,roks,x86_64,v1.22.15+c763d11,Red Hat,3.10.0-1160.83.1.el7.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el7,AGENT,helm
+12.11.0-rc1,,arm64,,Amazon Linux 2,5.10.162-141.675.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.11.0-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,,,SLIM,native
+0.1.driver,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,,,SLIM,native
+0.1.driver,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.x86_64,,,SLIM,native
+dev,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.7.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1009-aws,,,AGENT,native
+latest,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1075-aws,docker,20.10.7,AGENT,docker
+12.11.0-rc1,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+SMAGENT-4468-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.5.0-rc,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,AGENT,kubernetes
+12.7.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,,,AGENT,native
+12.8.1,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.76.1.el7.x86_64,cri-o,1.22.5-9.rhaos4.9.git70fb67b.el7,SLIM & AGENT,kubernetes & helm
+12.8.1,eks,x86_64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.2 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.8.0-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.71.1.el7.x86_64,,,AGENT,native
+12.9.1-rc1,,arm64,,Fedora Linux 36 (Cloud Edition),6.0.7-200.fc36.aarch64,docker,20.10.21,SLIM,docker
+latest,eks,x86_64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.1 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.10.1,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.10.1-rc1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,,arm64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,SLIM,docker
+12.5.0,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.8.1,,arm64,,Fedora Linux 36 (Cloud Edition),5.19.9-200.fc36.aarch64,docker,20.10.18,SLIM,docker
+12.6.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,,,AGENT,native
+12.6.0-rc,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1022-aws,docker,20.10.12,AGENT,docker
+0.1.xiao3843,eks,x86_64,v1.22.15-eks-fb459a0,Amazon Linux 2,5.4.219-126.411.amzn2.x86_64,docker,20.10.17,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,arm64,,Fedora Linux 35 (Cloud Edition),6.0.10-100.fc35.aarch64,docker,20.10.21,SLIM,docker
+12.10.0-rc1,kops,x86_64,v1.25.4,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,kops,arm64,v1.25.4,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,,arm64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.aarch64,docker,20.10.17,AGENT,docker
+12.4.0,,x86_64,,Amazon Linux 2,4.14.273-207.502.amzn2.x86_64,,,AGENT,native
+12.7.1-rc,,arm64,,Amazon Linux 2,4.14.281-212.502.amzn2.aarch64,docker,20.10.13,AGENT,docker
+12.8.0-rc1,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,docker,20.10.17,AGENT,docker
+12.8.0-rc2,,x86_64,,Fedora Linux 35 (Cloud Edition),5.18.13-100.fc35.x86_64,,,AGENT,native
+dev,,x86_64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+dev,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-23-arm64,docker,18.09.1,SLIM,docker
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.10-100.fc36.x86_64,,,SLIM,native
+12.8.1-rc1,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.19.1.el8_6.x86_64,,,AGENT,native
+12.8.1-rc1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.76.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM,helm
+12.11.0-rc3,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,,,SLIM,native
+12.11.0-rc3,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,,,SLIM,native
+12.11.0-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.8-100.fc36.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc1,eks,arm64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM & AGENT,kubernetes & helm
+do_not_patchelf-linux-amd64,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.x86_64,docker,23.0.0,SLIM,docker
+12.10.1-rc1,okd4,x86_64,v1.22.15+c763d11,Red Hat Enterprise Linux CoreOS 49.84.202212201621-0 (Ootpa),4.18.0-305.72.1.el8_4.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el8,SLIM,helm
+SMAGENT-4468-linux-amd64,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,AGENT,kubernetes
+12.7.0-rc,,arm64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.15.0-1099-aws,docker,18.09.7,AGENT,docker
+12.8.1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1019-aws,,,AGENT,native
+12.9.0-rc3,,x86_64,,Fedora Linux 36 (Cloud Edition),5.19.13-200.fc36.x86_64,docker,20.10.18,AGENT,docker
+SMAGENT-4225-linux-arm64,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+SMAGENT-4225-linux-arm64,,arm64,,Fedora Linux 35 (Cloud Edition),6.0.8-100.fc35.aarch64,docker,20.10.21,SLIM,docker
+SMAGENT-4225-linux-amd64,,x86_64,,Amazon Linux 2,5.10.149-133.644.amzn2.x86_64,docker,20.10.17,SLIM,docker
+AGENT_PROBE,,,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-arm64,docker,20.10.5+dfsg1,,
+12.9.0-rc1,,arm64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.aarch64,docker,20.10.17,AGENT,docker
+12.9.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1019-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc3,,x86_64,,SLES 15-SP4,5.14.21-150400.24.21-default,docker,20.10.17-ce,AGENT,docker
+12.7.0,,arm64,,Amazon Linux 2,4.14.287-215.504.amzn2.aarch64,docker,20.10.13,AGENT,docker
+12.8.0-rc2,okd4,x86_64,v1.22.8+f34b40c,Red Hat Enterprise Linux CoreOS 49.84.202206302027-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.22.5-7.rhaos4.9.git3dbcd3c.el8,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,gke,x86_64,v1.23.8-gke.1900,Container-Optimized OS from Google,5.10.127+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+0.4.zzhongcheng3843,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202212072103-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.3-7.rhaos4.11.gitae53655.el8,SLIM,helm
+12.10.1-rc1,eks,x86_64,v1.22.15-eks-fb459a0,Amazon Linux 2,5.4.219-126.411.amzn2.x86_64,docker,20.10.17,SLIM,helm
+12.10.1-rc1,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202211291109-0 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,cri-o,1.24.3-6.rhaos4.11.gitc4567c0.el8,SLIM,helm
+12.5.0,,arm64,,Amazon Linux 2,4.14.275-207.503.amzn2.aarch64,docker,20.10.13,AGENT,docker
+12.10.0-rc1,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.10.0-rc2,kops,arm64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,arm64,,Fedora Linux 36 (Cloud Edition),6.0.12-200.fc36.aarch64,docker,20.10.21,SLIM,docker
+12.6.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1071-aws,,,AGENT,native
+12.6.0-rc,,arm64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.23.1.el8_5.aarch64,docker,20.10.14,AGENT,docker
+12.9.0-rc2,iks,x86_64,v1.23.10+IKS,Ubuntu 18.04.6 LTS,4.15.0-192-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+latest,k8s,x86_64,v1.21.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-amd64,,,AGENT,native
+latest,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1021-aws,,,AGENT,native
+12.4.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.16.15-101.fc34.x86_64,docker,20.10.13,AGENT,docker
+12.4.0-rc,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.4.0-rc,roks,x86_64,v1.22.7+IKS,Ubuntu 18.04.6 LTS,4.15.0-171-generic,containerd,1.5.10,SLIM & AGENT,kubernetes & helm
+12.4.0,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.7.1-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,,,AGENT,native
+12.7.1-rc,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,AGENT,helm
+12.7.1-rc,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.8.0,eks,x86_64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.0 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.8-200.fc37.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc1,,x86_64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+0.1.driver,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,,,SLIM,native
+upgrade_patchelf-linux-amd64,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,docker,20.10.12,SLIM,docker
+12.7.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1011-aws,docker,20.10.12,AGENT,docker
+SMAGENT-4468-linux-amd64,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.81.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.8.1,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,docker,20.10.17,AGENT,docker
+12.9.0-rc3,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-amd64,docker,20.10.5+dfsg1,AGENT,docker
+12.9.0-rc3,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,docker,20.10.18,AGENT,docker
+SMAGENT-4225-linux-arm64,,arm64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,SLIM,docker
+AGENT_PROBE,,,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,docker,20.10.12,,
+AGENT_PROBE,,,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,,,,
+12.9.0-rc1,kops,x86_64,v1.24.4,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc1,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.76.1.el7.x86_64,cri-o,1.22.5-9.rhaos4.9.git70fb67b.el7,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,,,SLIM,native
+SMAGENT-3959-linux-amd64,gke,x86_64,v1.22.10-gke.600,Container-Optimized OS from Google,5.10.109+,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.1-rc1,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.9.0-rc2,kops,x86_64,v1.24.4,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,gke,x86_64,v1.22.12-gke.300,Container-Optimized OS from Google,5.10.127+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,eks,arm64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+12.10.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.0-rc2,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202211291109-0 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,cri-o,1.24.3-6.rhaos4.11.gitc4567c0.el8,SLIM & AGENT,kubernetes & helm
+12.6.0-rc,gke,x86_64,v1.21.10-gke.2000,Container-Optimized OS from Google,5.4.170+,containerd,1.4.8,SLIM & AGENT,kubernetes & helm
+12.6.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.62.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.6.0-rc,okd4,x86_64,v1.19.16+6175753,Red Hat Enterprise Linux CoreOS 46.82.202203141332-0 (Ootpa),4.18.0-193.79.1.el8_2.x86_64,cri-o,1.19.5-3.rhaos4.6.git91f8458.el8,SLIM & AGENT,kubernetes & helm
+12.6.0,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.6.0-rc,roks,x86_64,v1.22.8+c02bd9d,Red Hat,3.10.0-1160.62.1.el7.x86_64,cri-o,1.22.3-4.rhaos4.9.gitc46200f.el7,SLIM & AGENT,kubernetes & helm
+12.6.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.6-200.fc35.x86_64,,,AGENT,native
+0.3.zhongcheng3924.1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1023-aws,,,SLIM,native
+0.3.zhongcheng3924.1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1089-aws,,,SLIM,native
+12.9.0-rc3,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1020-aws,,,AGENT,native
+12.9.0-rc3,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc3,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1020-aws,docker,20.10.12,AGENT,docker
+dev,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-20-cloud-amd64,,,SLIM,native
+dev,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,,,SLIM,native
+12.4.0,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.4.0,,x86_64,,Fedora 34 (Cloud Edition),5.16.18-100.fc34.x86_64,,,AGENT,native
+12.4.0,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.x86_64,docker,20.10.14,AGENT,docker
+12.4.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.16.16-100.fc34.x86_64,docker,20.10.14,AGENT,docker
+12.9.1-rc2,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.5.10,SLIM,helm
+12.9.1-rc2,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.80.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,docker,20.10.12,AGENT,docker
+12.7.1-rc,kops,x86_64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,AGENT,helm
+12.7.1-rc,okd4,x86_64,v1.21.11+6b3cbdd,Red Hat Enterprise Linux CoreOS 48.84.202206140145-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.21.8-3.rhaos4.8.gitd7fbb0d.el8,SLIM & AGENT,kubernetes & helm
+latest,kops,x86_64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.13,AGENT,helm
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.10-100.fc36.x86_64,docker,23.0.1,SLIM,docker
+dev,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.8-200.fc37.x86_64,,,SLIM,native
+12.11.0-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc1,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc1,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM & AGENT,kubernetes & helm
+remove_libksba-linux-amd64,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,20.10.23,SLIM,docker
+12.5.0-rc,kops,arm64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,iks,x86_64,v1.22.11+IKS,Ubuntu 18.04.6 LTS,4.15.0-187-generic,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+12.8.1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.76.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+0.1.gcc9,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,,,AGENT,native
+AGENT_PROBE,,,,SLES 15-SP4,5.14.21-150400.24.21-default,docker,20.10.17-ce,,
+12.9.0-rc1,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.9.0-rc1,gke,x86_64,v1.22.12-gke.300,Container-Optimized OS from Google,5.10.127+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+latest,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,AGENT,helm
+12.8.0-rc2,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-19-amd64,docker,19.03.15,AGENT,docker
+12.8.0-rc2,,x86_64,,Fedora Linux 35 (Cloud Edition),5.18.11-100.fc35.x86_64,docker,20.10.17,AGENT,docker
+12.9.1-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.7-100.fc35.x86_64,docker,20.10.21,SLIM,docker
+12.9.1-rc2,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.4.13,SLIM,helm
+SMAGENT-4225-linux-amd64,gke,x86_64,v1.23.12-gke.100,Container-Optimized OS from Google,5.10.133+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+latest,iks,x86_64,v1.23.10+IKS,Ubuntu 18.04.6 LTS,4.15.0-191-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,docker,20.10.12,SLIM,docker
+12.10.1-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,,,SLIM,native
+12.10.1-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.81.1.el7.x86_64,,,SLIM,native
+12.10.0-rc2,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+12.4.0,kops,x86_64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,AGENT,kubernetes
+12.6.0,okd4,x86_64,v1.22.8+d48376b,Red Hat Enterprise Linux CoreOS 49.84.202205132131-0 (Ootpa),4.18.0-305.45.1.el8_4.x86_64,cri-o,1.22.3-7.rhaos4.9.git6cb2fb1.el8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,,x86_64,,Fedora Linux 35 (Cloud Edition),5.19.11-100.fc35.x86_64,docker,20.10.18,AGENT,docker
+12.6.0-rc,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1005-aws,docker,20.10.12,AGENT,docker
+12.6.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1005-aws,docker,20.10.12,AGENT,docker
+xz_insmod-linux-amd64,,x86_64,,Fedora Linux 36 (Cloud Edition),6.0.11-200.fc36.x86_64,docker,20.10.21,SLIM,docker
+latest,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.26.1.el9_0.x86_64,docker,20.10.19,AGENT,docker
+dev,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,docker,18.09.1,SLIM,docker
+SMAGENT3619-linux-amd64,,x86_64,,Fedora 34 (Cloud Edition),5.16.18-100.fc34.x86_64,docker,20.10.14,AGENT,docker
+12.9.1-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,,,SLIM,native
+12.7.1-rc,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.13.1.el8_6.x86_64,,,AGENT,native
+12.8.0-rc1,okd4,x86_64,v1.19.16+6175753,Red Hat Enterprise Linux CoreOS 46.82.202203141332-0 (Ootpa),4.18.0-193.79.1.el8_2.x86_64,cri-o,1.19.5-3.rhaos4.6.git91f8458.el8,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,eks,x86_64,v1.22.9-eks-810597c,Amazon Linux 2,5.4.196-108.356.amzn2.x86_64,docker,20.10.13,SLIM & AGENT,kubernetes & helm
+12.10.1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,,,SLIM,native
+12.11.0-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,,,SLIM,native
+12.10.1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,,,SLIM,native
+12.11.0-rc2,k8s,x86_64,v1.24.10,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,,,SLIM,native
+dev,iks,x86_64,v1.24.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-200-generic,containerd,1.6.12,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.7-100.fc36.x86_64,,,SLIM,native
+SMAGENT-4468-linux-amd64,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1093-aws,docker,20.10.12,SLIM,docker
+12.5.0-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,docker,19.03.15,AGENT,docker
+0.99.8730dev,okd4,x86_64,v1.23.5+8471591,Red Hat Enterprise Linux CoreOS 410.84.202210061459-0 (Ootpa),4.18.0-305.62.1.el8_4.x86_64,cri-o,1.23.3-17.rhaos4.10.git016b1ca.el8,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-arm64,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1089-aws,docker,20.10.7,SLIM,docker
+0.99.8653dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.8.0-rc2,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.8.0,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.13,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1083-aws,docker,20.10.7,AGENT,docker
+12.10.0-rc1,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+0.4.zhongcheng3843,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,,,SLIM,native
+0.99.8851dev-internal-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.1-rc1,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+12.10.0-rc2,eks,x86_64,v1.22.15-eks-fb459a0,Amazon Linux 2,5.4.219-126.411.amzn2.x86_64,docker,20.10.17,SLIM,helm
+0.99.8653dev,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.9.0-rc2,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-amd64,docker,20.10.5+dfsg1,AGENT,docker
+12.9.1,okd4,x86_64,v1.22.8+9e95cb9,Red Hat Enterprise Linux CoreOS 49.84.202211140918-0 (Ootpa),4.18.0-305.65.1.el8_4.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el8,SLIM,helm
+12.10.0-rc2,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+0.3.zhongcheng3924.1,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,,,SLIM,native
+12.4.0-rc,,arm64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.aarch64,docker,20.10.13,AGENT,docker
+12.9.1-rc2,,x86_64,,SLES 15-SP4,5.14.21-150400.24.28-default,docker,20.10.17-ce,SLIM,docker
+12.7.1-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.71.1.el7.x86_64,docker,20.10.17,AGENT,docker
+dev,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc2,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc3,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,,arm64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.aarch64,docker,20.10.23,SLIM,docker
+12.7.0-rc,gke,x86_64,v1.22.8-gke.201,Container-Optimized OS from Google,5.10.90+,containerd,1.5.4,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,okd4,x86_64,v1.22.8+f34b40c,Red Hat Enterprise Linux CoreOS 49.84.202205241705-0 (Ootpa),4.18.0-305.45.1.el8_4.x86_64,cri-o,1.22.4-3.rhaos4.9.gitb6d3a87.el8,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.9.1.el8.x86_64,docker,20.10.17,AGENT,docker
+12.7.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.14-200.fc35.x86_64,,,AGENT,native
+12.11.0-rc1,eks,arm64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM,helm
+0.99.8859dev,kops,x86_64,v1.23.15,Ubuntu 22.04.1 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.5.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1021-aws,,,AGENT,native
+12.7.0-rc,,arm64,,Amazon Linux 2,4.14.281-212.502.amzn2.aarch64,docker,20.10.13,AGENT,docker
+12.4.0,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1071-aws,docker,20.10.7,AGENT,docker
+AGENT_PROBE,,,,Amazon Linux 2,5.10.147-133.644.amzn2.aarch64,docker,20.10.17,,
+12.9.0-rc1,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,,,AGENT,native
+12.9.0-rc1,kops,arm64,v1.24.4,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,gke,x86_64,v1.23.12-gke.100,Container-Optimized OS from Google,5.10.133+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+smagent-4261-linux-arm64,,arm64,,Fedora Linux 36 (Cloud Edition),6.0.9-200.fc36.aarch64,docker,20.10.21,SLIM,docker
+0.4.zzhongcheng3843,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+0.2.newgpg,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,,,SLIM,native
+12.10.1-rc1,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.5.10,SLIM,helm
+12.9.1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1023-aws,,,SLIM,native
+12.6.0-rc,,arm64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.15.0-1099-aws,docker,18.09.7,AGENT,docker
+12.10.0-rc1,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,docker,20.10.21,SLIM,docker
+12.9.0-rc2,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,AGENT,native
+12.9.0-rc2,,arm64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.aarch64,docker,20.10.17,AGENT,docker
+12.6.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1072-aws,docker,20.10.7,AGENT,docker
+12.9.1-rc1,,zlinux,,Red Hat Enterprise Linux 8.4 (Ootpa),4.18.0-305.el8.s390x,docker,20.10.8,SLIM,docker
+12.4.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.16.15-101.fc34.x86_64,,,AGENT,native
+12.4.0-rc,eks,x86_64,v1.21.5-eks-9017834,Amazon Linux 2,5.4.181-99.354.amzn2.x86_64,docker,20.10.7,SLIM & AGENT,kubernetes & helm
+12.4.0,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,docker,18.09.7,AGENT,docker
+12.4.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.16.16-200.fc35.x86_64,docker,20.10.14,AGENT,docker
+12.9.1-rc2,kops,arm64,v1.25.4,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.71.1.el7.x86_64,,,AGENT,native
+12.8.0-rc1,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+testing,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,,,AGENT,native
+dev,iks,x86_64,v1.25.6+IKS,Ubuntu 18.04.6 LTS,4.15.0-202-generic,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,,x86_64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+12.11.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.5-100.fc36.x86_64,,,SLIM,native
+dev,,arm64,,Amazon Linux 2,5.10.157-139.675.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.11.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1093-aws,,,SLIM,native
+remove_libksba-linux-amd64,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.7-200.fc37.x86_64,docker,20.10.23,SLIM,docker
+SMAGENT-4468-linux-amd64,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.16.19-100.fc34.x86_64,,,AGENT,native
+12.7.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,,,AGENT,native
+12.7.0-rc,gke,x86_64,v1.22.8-gke.202,Container-Optimized OS from Google,5.10.90+,containerd,1.5.4,SLIM & AGENT,kubernetes & helm
+12.8.1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1084-aws,,,AGENT,native
+12.9.0-rc3,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,AGENT,docker
+12.9.0-rc3,,x86_64,,Fedora Linux 35 (Cloud Edition),5.19.13-100.fc35.x86_64,docker,20.10.18,AGENT,docker
+12.9.0-rc3,,x86_64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.x86_64,docker,20.10.17,AGENT,docker
+12.9.0-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),5.19.9-100.fc35.x86_64,docker,20.10.18,AGENT,docker
+smagent-4261-linux-arm64,,arm64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,SLIM,docker
+12.8.0-rc2,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.16.1.el8_6.x86_64,docker,20.10.17,AGENT,docker
+12.6.0-rc,,x86_64,,Amazon Linux 2,4.14.276-211.499.amzn2.x86_64,docker,20.10.13,AGENT,docker
+12.10.0-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),6.0.11-200.fc36.x86_64,docker,20.10.21,SLIM,docker
+12.10.0-rc1,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,,,SLIM,native
+0.1.xiao3843,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.80.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,,,AGENT,native
+12.10.0-rc1,,x86_64,,Amazon Linux 2,5.10.149-133.644.amzn2.x86_64,,,SLIM,native
+dev,,x86_64,,Amazon Linux 2,5.10.157-139.675.amzn2.x86_64,,,SLIM,native
+12.4.0-rc,kops,x86_64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,AGENT,kubernetes
+12.4.0-rc,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.9.1-rc2,,arm64,,SLES 15-SP4,5.14.21-150400.24.28-default,docker,20.10.17-ce,SLIM,docker
+12.9.1-rc2,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,SLIM,docker
+12.7.1-rc,,x86_64,,Amazon Linux 2022,5.15.43-20.123.amzn2022.x86_64,docker,20.10.13,AGENT,docker
+12.8.0-rc1,,arm64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.16.1.el8_6.aarch64,docker,20.10.17,AGENT,docker
+12.8.0-rc1,,x86_64,,Amazon Linux 2,4.14.285-215.501.amzn2.x86_64,docker,20.10.13,AGENT,docker
+12.8.0,,x86_64,,Amazon Linux 2,5.10.130-118.517.amzn2.x86_64,,,AGENT,native
+dev,,arm64,,Fedora Linux 37 (Cloud Edition),6.1.10-200.fc37.aarch64,docker,23.0.1,SLIM,docker
+dev,kops,arm64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-23-arm64,docker,18.09.1,SLIM,docker
+12.11.0-rc3,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,20.10.23,SLIM,docker
+0.1.driver,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,,,SLIM,native
+drift,k8s,x86_64,v1.24.10,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,containerd,1.6.15,AGENT,helm
+dev,,x86_64,,SLES 15-SP4,5.14.21-150400.24.38-default,docker,20.10.17-ce,SLIM,docker
+latest,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+12.11.0-rc1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1093-aws,docker,20.10.12,SLIM,docker
+12.5.0-rc,,arm64,,Amazon Linux 2,4.14.273-207.502.amzn2.aarch64,docker,20.10.7,AGENT,docker
+12.7.0-rc,okd4,x86_64,v1.21.11+6b3cbdd,Red Hat Enterprise Linux CoreOS 48.84.202205232135-0 (Ootpa),4.18.0-305.45.1.el8_4.x86_64,cri-o,1.21.7-3.rhaos4.8.git57607b4.el8,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.10.1-rc1,okd4,x86_64,v1.22.15+568b938,Red Hat Enterprise Linux CoreOS 49.84.202211291357-0 (Ootpa),4.18.0-305.71.1.el8_4.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el8,SLIM,helm
+12.10.1-rc1,roks,x86_64,v1.22.15+568b938,Red Hat,3.10.0-1160.81.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM,helm
+12.10.1-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-22-cloud-amd64,docker,18.09.1,SLIM,docker
+12.10.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,,,SLIM,native
+12.9.0-rc2,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-amd64,,,AGENT,native
+0.3.zhongcheng3924.1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,SLIM,native
+12.9.0-rc3,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+SMAGENT3619-linux-amd64,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,docker,19.03.15,AGENT,docker
+12.8.0-rc1,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.8.1-rc1,,arm64,,Amazon Linux 2,5.10.130-118.517.amzn2.aarch64,docker,20.10.17,AGENT,docker
+12.11.0-rc2,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.83.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.11.0-rc2,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,,,SLIM,native
+12.11.0-rc2,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,,,SLIM,native
+0.1.driver,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,,,SLIM,native
+SMAGENT-4359-linux-amd64,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1025-aws,docker,20.10.12,AGENT,docker
+SMAGENT-4468-linux-amd64,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,docker,18.09.1,SLIM,docker
+12.5.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.62.1.el7.x86_64,,,AGENT,native
+0.99.8730dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,docker,20.10.12,AGENT,docker
+0.99.8655dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+SMAGENT-3959-linux-amd64,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,,,AGENT,native
+12.10.1-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+12.5.0,,arm64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.15.0-1099-aws,docker,18.09.7,AGENT,docker
+12.5.0,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,docker,18.09.7,AGENT,docker
+12.10.0-rc2,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-22-arm64,docker,18.09.1,SLIM,docker
+12.6.0-rc,eks,x86_64,v1.21.5-eks-9017834,Amazon Linux 2,5.4.188-104.359.amzn2.x86_64,docker,20.10.13,SLIM & AGENT,kubernetes & helm
+12.6.0,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.66.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+0.1.xiao3843,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202211230601-0 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,cri-o,1.24.3-6.rhaos4.11.gitc4567c0.el8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,kops,arm64,v1.24.4,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,,arm64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.aarch64,docker,20.10.18,AGENT,docker
+12.4.0-rc,okd4,x86_64,v1.19.14+fcff70a,Red Hat Enterprise Linux CoreOS 46.82.202110110956-0 (Ootpa),4.18.0-193.65.2.el8_2.x86_64,cri-o,1.19.4-3.rhaos4.6.git7d25e5d.el8,SLIM & AGENT,kubernetes & helm
+12.4.0,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.9.1-rc2,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,SLIM,docker
+12.9.1-rc2,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,,,SLIM,native
+12.7.1-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.7.1-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1013-aws,,,AGENT,native
+12.7.1-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-19-amd64,,,AGENT,native
+12.8.0-rc1,okd4,x86_64,v1.20.15+98b2293,Red Hat Enterprise Linux CoreOS 47.84.202206080457-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.20.8-3.rhaos4.7.gitb9df556.el8,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.71.1.el7.x86_64,,,AGENT,native
+12.8.1-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1083-aws,,,AGENT,native
+12.8.1-rc1,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,,,AGENT,native
+12.8.1-rc1,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.76.1.el7.x86_64,cri-o,1.22.5-7.rhaos4.9.git3dbcd3c.el7,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,,,SLIM,native
+12.11.0-rc2,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,,arm64,,Amazon Linux 2,5.10.165-143.735.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.11.0-rc3,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,,,SLIM,native
+upgrade_patchelf-linux-amd64,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+dev,,arm64,,Fedora Linux 36 (Cloud Edition),6.1.5-100.fc36.aarch64,docker,20.10.22,SLIM,docker
+dev,kops,arm64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,kops,arm64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+SMAGENT-4468-linux-amd64,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM,helm
+remove_libksba-linux-amd64,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,docker,20.10.17,SLIM,docker
+SMAGENT-4468-linux-amd64,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.7-100.fc36.x86_64,docker,20.10.23,SLIM,docker
+0.99.8859dev,kops,x86_64,v1.23.15,Ubuntu 22.04.1 LTS,5.15.0-1026-aws,containerd,1.6.10,AGENT,helm
+12.8.1,,x86_64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.x86_64,docker,20.10.17,AGENT,docker
+AGENT_PROBE,,,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,docker,20.10.21,,
+12.9.0-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,AGENT,native
+12.8.0-rc2,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.8.0-rc2,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.9.1-rc1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,docker,20.10.21,SLIM,docker
+12.8.1-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-17-cloud-amd64,docker,20.10.5+dfsg1,AGENT,docker
+12.10.0-rc1,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-22-arm64,docker,18.09.1,SLIM,docker
+smagent4078s390x5k,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.9.0-rc3,iks,x86_64,v1.23.12+IKS,Ubuntu 18.04.6 LTS,4.15.0-193-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,kops,x86_64,v1.21.9,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.13,AGENT,helm
+12.10.1-rc1,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.1-rc1,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+12.10.1-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.81.1.el7.x86_64,docker,20.10.22,SLIM,docker
+SMAGENT-4064-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+12.5.0,,x86_64,,Amazon Linux 2,4.14.275-207.503.amzn2.x86_64,docker,20.10.13,AGENT,docker
+smoke_tests-linux-amd64,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1025-aws,docker,20.10.12,AGENT,docker
+12.6.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.5-200.fc35.x86_64,,,AGENT,native
+12.6.0-rc,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.23.1.el8_5.x86_64,docker,20.10.15,AGENT,docker
+12.9.0-rc2,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,AGENT,docker
+12.9.0-rc2,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.9.0-rc2,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,,,AGENT,native
+12.9.0-rc2,,x86_64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.x86_64,,,AGENT,native
+12.6.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1072-aws,,,AGENT,native
+12.9.0-rc3,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.5.10,AGENT,helm
+latest,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-amd64,docker,20.10.5+dfsg1,AGENT,docker
+dev,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,,,SLIM,native
+dev,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.4.0-rc,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.x86_64,docker,20.10.13,AGENT,docker
+12.8.0-rc1,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+dev,,arm64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.aarch64,docker,23.0.1,SLIM,docker
+dev,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,,,SLIM,native
+12.11.0-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.8-100.fc36.x86_64,,,SLIM,native
+12.11.0-rc3,,arm64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.aarch64,docker,23.0.0,SLIM,docker
+12.11.0-rc1,kops,x86_64,v1.24.10,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+upgrade_patchelf-linux-amd64,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,docker,18.09.1,SLIM,docker
+dev,gke,x86_64,v1.24.7-gke.900,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+12.7.0-rc,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1011-aws,docker,20.10.12,AGENT,docker
+12.5.0-rc,,x86_64,,Ubuntu 22.04 (Jammy Jellyfish),5.15.0-1004-aws,,,AGENT,native
+12.8.1,,x86_64,,Fedora Linux 35 (Cloud Edition),5.19.8-100.fc35.x86_64,docker,20.10.18,AGENT,docker
+12.8.1,okd4,x86_64,v1.23.5+012e945,Red Hat Enterprise Linux CoreOS 410.84.202208161501-0 (Ootpa),4.18.0-305.57.1.el8_4.x86_64,cri-o,1.23.3-15.rhaos4.10.git6af791c.el8,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-19-amd64,,,AGENT,native
+12.8.0-rc2,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,docker,20.10.17,AGENT,docker
+12.9.1-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),6.0.7-200.fc36.x86_64,docker,20.10.21,SLIM,docker
+12.9.1-rc2,iks,x86_64,v1.24.7+IKS,Ubuntu 18.04.6 LTS,4.15.0-194-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,arm64,,SLES 15-SP4,5.14.21-150400.24.33-default,docker,20.10.17-ce,SLIM,docker
+SMAGENT-4225-linux-amd64,kops,x86_64,v1.25.4,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.12-100.fc35.x86_64,,,SLIM,native
+12.6.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.5-100.fc34.x86_64,docker,20.10.15,AGENT,docker
+12.6.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.5-200.fc35.x86_64,docker,20.10.15,AGENT,docker
+12.10.0-rc1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,,,SLIM,native
+12.10.0-rc2,okd4,x86_64,v1.22.8+9e95cb9,Red Hat Enterprise Linux CoreOS 49.84.202211140918-0 (Ootpa),4.18.0-305.65.1.el8_4.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el8,SLIM & AGENT,kubernetes & helm
+0.3.zhongcheng3924.1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1023-aws,,,SLIM,native
+12.9.1-rc1,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1089-aws,docker,20.10.12,SLIM,docker
+12.4.0-rc,,arm64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.15.0-1099-aws,docker,18.09.7,AGENT,docker
+12.4.0-rc,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.9.1-rc2,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1022-aws,docker,20.10.12,SLIM,docker
+12.8.0-rc1,okd4,x86_64,v1.22.8+f34b40c,Red Hat Enterprise Linux CoreOS 49.84.202206271140-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.22.5-7.rhaos4.9.git3dbcd3c.el8,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,docker,18.09.1,SLIM,docker
+12.11.0-rc1,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc2,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,,,SLIM,native
+upgrade_patchelf-linux-amd64,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,23.0.0,SLIM,docker
+upgrade_patchelf-linux-amd64,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,docker,20.10.17,SLIM,docker
+latest,,x86_64,,Amazon Linux 2,4.14.281-212.502.amzn2.x86_64,docker,20.10.13,AGENT,docker
+latest,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1011-aws,,,AGENT,native
+12.7.0-rc,eks,x86_64,v1.22.6-eks-7d68063,Amazon Linux 2,5.4.190-107.353.amzn2.x86_64,docker,20.10.13,SLIM & AGENT,kubernetes & helm
+SMAGENT-4468-linux-amd64,iks,x86_64,v1.24.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-202-generic,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+remove_libksba-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+remove_libksba-linux-amd64,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.7-100.fc36.x86_64,docker,20.10.23,SLIM,docker
+12.5.0-rc,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.8.1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+SMAGENT-4225-linux-amd64,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+AGENT_PROBE,,,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,docker,20.10.21,,
+12.9.0-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),5.19.11-200.fc36.x86_64,docker,20.10.18,AGENT,docker
+12.8.0-rc2,kops,arm64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.5.10,AGENT,helm
+12.8.0,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.22.1.el9_0.x86_64,docker,20.10.17,AGENT,docker
+0.4.zhongcheng3843,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,,,SLIM,native
+12.10.1-rc1,gke,x86_64,v1.24.7-gke.900,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+0.4.zzhongcheng3843,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+0.4.zhongcheng3843,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,AGENT,helm
+12.10.1-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,,,SLIM,native
+12.5.0,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1071-aws,docker,20.10.7,AGENT,docker
+12.9.0-rc2,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.5.10,AGENT,helm
+12.9.0-rc2,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1020-aws,,,AGENT,native
+12.10.0,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.0-rc1,gke,x86_64,v1.24.5-gke.600,Container-Optimized OS from Google,5.10.133+,containerd,1.6.6,SLIM,helm
+12.9.0-rc3,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,,,AGENT,native
+dev,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-20-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+12.4.0-rc,okd4,x86_64,v1.22.3+b93fd35,Red Hat Enterprise Linux CoreOS 49.84.202202230006-0 (Ootpa),4.18.0-305.34.2.el8_4.x86_64,cri-o,1.22.1-21.rhaos4.9.git74a7981.2.el8,SLIM & AGENT,kubernetes & helm
+12.4.0,,x86_64,,Ubuntu 22.04 (Jammy Jellyfish),5.15.0-1004-aws,docker,20.10.12,AGENT,docker
+12.9.1-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,docker,20.10.21,SLIM,docker
+12.9.1-rc2,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1022-aws,,,SLIM,native
+0.0.zhongcheng,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.8.1-rc1,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-17-cloud-arm64,docker,20.10.5+dfsg1,AGENT,docker
+dev,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc2,kops,arm64,v1.24.10,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+upgrade_patchelf-linux-amd64,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+do_not_patchelf-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.7.0-rc,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,,,AGENT,native
+SMAGENT-4468-linux-amd64,roks,x86_64,v1.22.15+c763d11,Red Hat,3.10.0-1160.81.1.el7.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el7,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202212072103-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.3-7.rhaos4.11.gitae53655.el8,SLIM,helm
+12.8.1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,,,AGENT,native
+SMAGENT-4225-linux-amd64,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,SLIM,docker
+12.10.0-rc1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.80.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+smagent-4261-linux-arm64,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+12.8.0-rc2,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.13,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+smagent-4078-s390x-2,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.5.0,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc2,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,docker,20.10.18,AGENT,docker
+12.9.0-rc2,,x86_64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.x86_64,docker,20.10.17,AGENT,docker
+12.10.0-rc2,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.80.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+0.1.1dev,kops,x86_64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,AGENT,kubernetes
+12.9.0-rc3,,arm64,,Fedora Linux 36 (Cloud Edition),5.19.12-200.fc36.aarch64,docker,20.10.18,AGENT,docker
+dev,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.81.1.el7.x86_64,docker,20.10.22,SLIM,docker
+12.8.0-rc1,kops,arm64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.5.10,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,iks,x86_64,v1.23.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-191-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.8-200.fc37.x86_64,,,SLIM,native
+12.11.0-rc3,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.aarch64,docker,23.0.0,SLIM,docker
+0.1.1dev,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,AGENT,helm
+12.11.0-rc1,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+dev,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.8-200.fc37.x86_64,docker,23.0.0,SLIM,docker
+do_not_patchelf-linux-amd64,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.x86_64,docker,23.0.0,SLIM,docker
+dev,,arm64,,SLES 15-SP4,5.14.21-150400.24.38-default,docker,20.10.17-ce,SLIM,docker
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.7-100.fc36.x86_64,docker,20.10.23,SLIM,docker
+12.5.0-rc,gke,x86_64,v1.21.6-gke.1503,Container-Optimized OS from Google,5.4.144+,containerd,1.4.8,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,roks,x86_64,v1.22.8+f34b40c,Red Hat,3.10.0-1160.71.1.el7.x86_64,cri-o,1.22.5-7.rhaos4.9.git3dbcd3c.el7,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,kops,arm64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1022-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1013-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc3,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,docker,20.10.18,AGENT,docker
+SMAGENT-4225-linux-amd64,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1089-aws,docker,20.10.7,SLIM,docker
+12.9.0-rc1,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,AGENT,docker
+12.8.0-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,,,AGENT,native
+12.8.0-rc2,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,docker,20.10.12,AGENT,docker
+12.9.1-rc1,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1022-aws,docker,20.10.12,SLIM,docker
+SMAGENT-3959-linux-amd64,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,,,AGENT,native
+SMAGENT-3959-linux-amd64,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,,,AGENT,native
+12.8.0,roks,x86_64,v1.22.8+f34b40c,Red Hat,3.10.0-1160.71.1.el7.x86_64,cri-o,1.22.5-7.rhaos4.9.git3dbcd3c.el7,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,,x86_64,,Amazon Linux 2,4.14.275-207.503.amzn2.x86_64,docker,20.10.7,AGENT,docker
+12.10.0-rc1,,arm64,,Fedora Linux 36 (Cloud Edition),6.0.11-200.fc36.aarch64,docker,20.10.21,SLIM,docker
+0.99.8826dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.1-rc1,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,docker,20.10.22,SLIM,docker
+12.10.1-rc1,,arm64,,SLES 15-SP4,5.14.21-150400.24.33-default,docker,20.10.17-ce,SLIM,docker
+12.10.1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.0-rc2,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,,,SLIM,native
+12.6.0-rc,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.23.1.el8_5.x86_64,,,AGENT,native
+12.6.0-rc,roks,x86_64,v1.22.5+a36406b,Red Hat,3.10.0-1160.62.1.el7.x86_64,cri-o,1.22.3-3.rhaos4.9.git28c5a70.el7,SLIM & AGENT,kubernetes & helm
+0.1.xiao3843,iks,x86_64,v1.24.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-197-generic,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,eks,x86_64,v1.22.15-eks-fb459a0,Amazon Linux 2,5.4.219-126.411.amzn2.x86_64,docker,20.10.17,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,,,SLIM,native
+12.3.1,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,AGENT,kubernetes
+12.4.0-rc,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1068-aws,docker,20.10.7,AGENT,docker
+12.4.0,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,AGENT,kubernetes
+12.7.1-rc,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.13.1.el8_6.x86_64,docker,20.10.17,AGENT,docker
+12.7.1-rc,iks,x86_64,v1.22.11+IKS,Ubuntu 18.04.6 LTS,4.15.0-187-generic,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+dev,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.5.10,SLIM,helm
+dev,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.83.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.10.1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,,,SLIM,native
+12.11.0-rc3,,x86_64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+0.1.1dev,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,AGENT,helm
+0.1.driver,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,,,SLIM,native
+SMAGENT-4225-linux-arm64,,arm64,,SLES 15-SP4,5.14.21-150400.24.33-default,docker,20.10.17-ce,SLIM,docker
+12.8.0-rc2,roks,x86_64,v1.22.8+f34b40c,Red Hat,3.10.0-1160.71.1.el7.x86_64,cri-o,1.22.5-7.rhaos4.9.git3dbcd3c.el7,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,,x86_64,,SLES 15-SP4,5.14.21-150400.24.28-default,docker,20.10.17-ce,SLIM,docker
+12.9.1-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1088-aws,,,SLIM,native
+12.5.0-rc,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1022-aws,docker,20.10.7,AGENT,docker
+12.5.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1022-aws,,,AGENT,native
+smagent-4261-linux-s390x,,zlinux,,Red Hat Enterprise Linux 8.4 (Ootpa),4.18.0-305.el8.s390x,docker,20.10.8,SLIM,docker
+SMAGENT-4225-linux-amd64,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1089-aws,docker,20.10.12,SLIM,docker
+SMAGENT-4225-linux-arm64,,zlinux,,Red Hat Enterprise Linux 8.4 (Ootpa),4.18.0-305.el8.s390x,docker,20.10.8,SLIM,docker
+12.10.1-rc1,roks,x86_64,v1.22.15+568b938,Red Hat,3.10.0-1160.81.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+0.4.zhongcheng3843,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-20-cloud-amd64,,,SLIM,native
+0.2.newgpg,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,,,SLIM,native
+12.9.0-rc2,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.4.13,SLIM,helm
+12.10.0-rc2,,x86_64,,SLES 15-SP4,5.14.21-150400.24.33-default,docker,20.10.17-ce,SLIM,docker
+12.6.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.5-200.fc35.x86_64,docker,20.10.14,AGENT,docker
+12.6.0-rc,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.23.1.el8_5.x86_64,docker,20.10.14,AGENT,docker
+12.5.0-rc5,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.9.0-rc2,,arm64,,Fedora Linux 36 (Cloud Edition),5.19.11-200.fc36.aarch64,docker,20.10.18,AGENT,docker
+12.6.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.62.1.el7.x86_64,docker,20.10.16,AGENT,docker
+0.3.zhongcheng3924.1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,,,SLIM,native
+12.10.0-rc1,kops,arm64,v1.25.4,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.10,SLIM,helm
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.6-100.fc36.x86_64,,,SLIM,native
+12.4.0-rc,kops,arm64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,AGENT,kubernetes
+12.4.0,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1021-aws,,,AGENT,native
+12.7.1-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.18.7-100.fc35.x86_64,docker,20.10.17,AGENT,docker
+12.7.1-rc,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,okd4,x86_64,v1.19.16+6175753,Red Hat Enterprise Linux CoreOS 46.82.202203141332-0 (Ootpa),4.18.0-193.79.1.el8_2.x86_64,cri-o,1.19.5-3.rhaos4.6.git91f8458.el8,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,okd4,x86_64,v1.20.15+98b2293,Red Hat Enterprise Linux CoreOS 47.84.202206080457-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.20.8-3.rhaos4.7.gitb9df556.el8,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Amazon Linux 2,5.10.165-143.735.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.8.1-rc1,,x86_64,,SLES 15-SP2,5.3.18-24.96-default,docker,20.10.9-ce,AGENT,docker
+12.8.1-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),5.18.18-200.fc36.x86_64,docker,20.10.17,AGENT,docker
+12.8.1-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+12.11.0-rc1,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM & AGENT,kubernetes & helm
+12.10.1,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.7.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc1,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,,,AGENT,native
+12.8.0-rc2,,arm64,,Amazon Linux 2,4.14.287-215.504.amzn2.aarch64,docker,20.10.13,AGENT,docker
+12.9.1-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,docker,20.10.12,SLIM,docker
+12.9.1-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1022-aws,,,SLIM,native
+12.5.0-rc,okd4,x86_64,v1.20.14+0d60930,Red Hat Enterprise Linux CoreOS 47.84.202204041239-0 (Ootpa),4.18.0-305.40.2.el8_4.x86_64,cri-o,1.20.7-2.rhaos4.7.git9f2a5c0.el8,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,docker,20.10.17,AGENT,docker
+12.10.0-rc1,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+0.2.newgpg,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1022-aws,,,SLIM,native
+12.5.0,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,x86_64,,Fedora Linux 36 (Cloud Edition),6.0.12-200.fc36.x86_64,docker,20.10.21,SLIM,docker
+12.10.0-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),6.0.10-200.fc36.x86_64,docker,20.10.21,SLIM,docker
+12.10.0-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,SLIM,native
+12.9.0-rc3,,x86_64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.x86_64,,,AGENT,native
+12.9.0-rc3,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1085-aws,docker,20.10.7,AGENT,docker
+12.9.0-rc3,eks,x86_64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.2 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,gke,x86_64,v1.22.12-gke.2300,Container-Optimized OS from Google,5.10.133+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,,,SLIM,native
+12.4.0-rc,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1017-aws,docker,20.10.7,AGENT,docker
+12.4.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1019-aws,docker,20.10.7,AGENT,docker
+12.9.1-rc2,,x86_64,,Fedora Linux 36 (Cloud Edition),6.0.7-200.fc36.x86_64,docker,20.10.21,SLIM,docker
+12.9.1-rc2,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,,,SLIM,native
+12.7.1-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,,,AGENT,native
+12.8.0-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),5.18.11-100.fc35.x86_64,docker,20.10.17,AGENT,docker
+12.11.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,,,SLIM,native
+12.11.0-rc2,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM,helm
+dev,kops,x86_64,v1.24.10,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM & AGENT,kubernetes & helm
+latest,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.10.1,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc1,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM,helm
+12.5.0-rc,iks,x86_64,v1.22.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-175-generic,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+12.4.0,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.7.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.66.1.el7.x86_64,,,AGENT,native
+12.7.0-rc,okd4,x86_64,v1.20.15+98b2293,Red Hat Enterprise Linux CoreOS 47.84.202206080457-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.20.8-3.rhaos4.7.gitb9df556.el8,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-amd64,,x86_64,,Fedora Linux 36 (Cloud Edition),6.0.8-200.fc36.x86_64,docker,20.10.21,SLIM,docker
+12.9.0-rc1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.5.10,AGENT,helm
+12.8.0-rc2,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,,x86_64,,Amazon Linux 2,4.14.275-207.503.amzn2.x86_64,,,AGENT,native
+12.10.0-rc1,,arm64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.aarch64,docker,20.10.21,SLIM,docker
+SMAGENT-4225-linux-amd64,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,docker,20.10.21,SLIM,docker
+12.10.1-rc1,iks,x86_64,v1.24.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-200-generic,containerd,1.6.12,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,,arm64,,Fedora Linux 35 (Cloud Edition),6.0.12-100.fc35.aarch64,docker,20.10.22,SLIM,docker
+12.10.1-rc1,,arm64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.aarch64,docker,20.10.22,SLIM,docker
+12.6.0-rc,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.6.0-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+12.9.0-rc2,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+12.9.0-rc2,,arm64,,Amazon Linux 2,5.10.135-122.509.amzn2.aarch64,docker,20.10.17,AGENT,docker
+0.3.zhongcheng3924.1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,,,SLIM,native
+12.10.0-rc1,,x86_64,,Amazon Linux 2,5.10.149-133.644.amzn2.x86_64,docker,20.10.17,SLIM,docker
+SMAGENT3619-linux-amd64,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1021-aws,docker,20.10.7,AGENT,docker
+SMAGENT3619-linux-amd64,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1068-aws,docker,20.10.7,AGENT,docker
+12.9.1-rc2,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,,,SLIM,native
+12.7.1-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1013-aws,docker,20.10.12,AGENT,docker
+12.8.0-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.71.1.el7.x86_64,docker,20.10.17,AGENT,docker
+0.0.zhongcheng,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,,,AGENT,native
+12.8.1-rc1,,arm64,,Amazon Linux 2,5.10.135-122.509.amzn2.aarch64,docker,20.10.17,AGENT,docker
+dev,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,,,SLIM,native
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.x86_64,,,SLIM,native
+12.11.0-rc3,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,,,SLIM,native
+12.11.0-rc1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.83.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,,arm64,,Amazon Linux 2,5.10.162-141.675.amzn2.aarch64,docker,20.10.17,SLIM,docker
+do_not_patchelf-linux-amd64,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,23.0.0,SLIM,docker
+12.7.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1025-aws,,,AGENT,native
+latest,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.66.1.el7.x86_64,docker,20.10.17,AGENT,docker
+latest,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1022-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,docker,18.09.7,AGENT,docker
+12.7.0-rc,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+12.8.1,,x86_64,,Fedora Linux 36 (Cloud Edition),5.19.8-200.fc36.x86_64,docker,20.10.18,AGENT,docker
+AGENT_PROBE,,,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,,,,
+AGENT_PROBE,,,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,,,,
+12.9.0-rc1,,arm64,,Fedora Linux 36 (Cloud Edition),5.19.9-200.fc36.aarch64,docker,20.10.18,AGENT,docker
+smagent-4261-linux-arm64,,arm64,,Amazon Linux 2,5.10.149-133.644.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.9.1-rc1,,arm64,,Amazon Linux 2,5.10.149-133.644.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.9.1-rc1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,,,SLIM,native
+12.9.1-rc1,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.5.10,SLIM,helm
+latest,okd4,x86_64,v1.23.5+012e945,Red Hat Enterprise Linux CoreOS 410.84.202208030316-0 (Ootpa),4.18.0-305.57.1.el8_4.x86_64,cri-o,1.23.3-11.rhaos4.10.gitddf4b1a.1.el8,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,iks,x86_64,v1.23.12+IKS,Ubuntu 18.04.6 LTS,4.15.0-193-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,okd4,x86_64,v1.23.5+012e945,Red Hat Enterprise Linux CoreOS 410.84.202209061703-0 (Ootpa),4.18.0-305.62.1.el8_4.x86_64,cri-o,1.23.3-16.rhaos4.10.gitd7c9b35.el8,SLIM & AGENT,kubernetes & helm
+12.5.0,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.4-200.fc35.x86_64,docker,20.10.14,AGENT,docker
+12.10.0-rc2,,arm64,,SLES 15-SP4,5.14.21-150400.24.33-default,docker,20.10.17-ce,SLIM,docker
+12.10.0-rc2,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.0-rc2,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.6.0-rc,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,AGENT,kubernetes
+12.10.0-rc1,,zlinux,,Red Hat Enterprise Linux 8.4 (Ootpa),4.18.0-305.el8.s390x,docker,20.10.8,SLIM,docker
+12.9.0-rc2,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,,,AGENT,native
+12.6.0-rc,okd4,x86_64,v1.22.8+c02bd9d,Red Hat Enterprise Linux CoreOS 49.84.202204251501-0 (Ootpa),4.18.0-305.45.1.el8_4.x86_64,cri-o,1.22.3-3.rhaos4.9.gitc46200f.el8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-arm64,docker,20.10.5+dfsg1,AGENT,docker
+dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.4.0-rc,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,AGENT,kubernetes
+12.4.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1017-aws,docker,20.10.7,AGENT,docker
+12.4.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.16.15-101.fc34.x86_64,docker,20.10.14,AGENT,docker
+12.9.1-rc2,eks,arm64,v1.22.15-eks-57e9f9a,Bottlerocket OS 1.10.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,okd4,x86_64,v1.20.14+0d60930,Red Hat Enterprise Linux CoreOS 47.84.202203141332-0 (Ootpa),4.18.0-305.40.2.el8_4.x86_64,cri-o,1.20.6-11.rhaos4.7.git76ea3d0.el8,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,gke,x86_64,v1.22.10-gke.600,Container-Optimized OS from Google,5.10.109+,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+dev,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+dev,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,okd4,x86_64,v1.23.5+012e945,Red Hat Enterprise Linux CoreOS 410.84.202208030316-0 (Ootpa),4.18.0-305.57.1.el8_4.x86_64,cri-o,1.23.3-11.rhaos4.10.gitddf4b1a.1.el8,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc3,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,,,SLIM,native
+12.10.1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc2,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,,,SLIM,native
+0.1.driver,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,,,SLIM,native
+12.11.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1093-aws,docker,20.10.12,SLIM,docker
+dev,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,,,AGENT,native
+12.7.0-rc,,x86_64,,Amazon Linux 2,4.14.281-212.502.amzn2.x86_64,,,AGENT,native
+12.9.0-rc2,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.4.13,AGENT,helm
+12.9.0-rc1,,arm64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.aarch64,docker,20.10.18,AGENT,docker
+12.9.0-rc1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.76.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.13,AGENT,helm
+smagent-4261-linux-arm64,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1089-aws,docker,20.10.12,SLIM,docker
+SMAGENT-3959-linux-amd64,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-19-amd64,,,AGENT,native
+12.9.0-rc2,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.76.1.el7.x86_64,cri-o,1.22.5-10.rhaos4.9.gitd14fede.el7,SLIM & AGENT,kubernetes & helm
+0.4.zzhongcheng3843,roks,x86_64,v1.22.15+568b938,Red Hat,3.10.0-1160.81.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,docker,20.10.12,SLIM,docker
+12.10.1-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),6.0.12-200.fc36.x86_64,docker,20.10.22,SLIM,docker
+12.10.1-rc1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.80.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.5.0,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+12.5.0,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,docker,19.03.15,AGENT,docker
+12.6.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,20.10.16,AGENT,docker
+latest,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,docker,20.10.19,AGENT,docker
+12.4.0,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1021-aws,docker,20.10.7,SLIM,docker
+12.9.1-rc2,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1022-aws,docker,20.10.12,SLIM,docker
+12.9.1-rc2,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,okd4,x86_64,v1.23.5+3afdacb,Red Hat Enterprise Linux CoreOS 410.84.202206080346-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.23.3-3.rhaos4.10.git5fe1720.el8,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,,arm64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.13.1.el8_6.aarch64,docker,20.10.17,AGENT,docker
+12.8.0-rc1,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,docker,20.10.12,AGENT,docker
+12.8.1-rc1,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,23.0.1,SLIM,docker
+12.10.1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.83.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,eks,x86_64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.0 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.5.10,SLIM,helm
+12.11.0-rc3,kops,arm64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+dev,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,AGENT,helm
+12.6.0,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1025-aws,docker,20.10.12,AGENT,docker
+dev,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.12-100.fc35.x86_64,,,SLIM,native
+dev,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+SMAGENT-4468-linux-amd64,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.7-200.fc37.x86_64,docker,20.10.23,SLIM,docker
+12.5.0-rc,,arm64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.aarch64,docker,20.10.14,AGENT,docker
+12.5.0-rc,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,,,AGENT,native
+12.7.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.66.1.el7.x86_64,docker,20.10.17,AGENT,docker
+0.99.8654dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.8.0-rc2,,x86_64,,Amazon Linux 2,4.14.287-215.504.amzn2.x86_64,,,AGENT,native
+12.8.0-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.71.1.el7.x86_64,docker,20.10.17,AGENT,docker
+12.8.1-rc1,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.5.10,AGENT,helm
+AGENT_PROBE,,,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.26.1.el9_0.x86_64,docker,20.10.21,,
+0.4.zzhongcheng3843,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202212072103-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.3-7.rhaos4.11.gitae53655.el8,SLIM & AGENT,kubernetes & helm
+0.4.zhongcheng3843,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+12.6.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.5-100.fc34.x86_64,docker,20.10.14,AGENT,docker
+12.6.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.62.1.el7.x86_64,docker,20.10.15,AGENT,docker
+12.6.0-rc,okd4,x86_64,v1.22.5+a36406b,Red Hat Enterprise Linux CoreOS 49.84.202204072350-0 (Ootpa),4.18.0-305.40.2.el8_4.x86_64,cri-o,1.22.3-2.rhaos4.9.git28c5a70.el8,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.80.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+12.4.0,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,docker,19.03.15,AGENT,docker
+12.9.1-rc2,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,docker,20.10.12,SLIM,docker
+12.9.1-rc2,,arm64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,SLIM,docker
+12.9.1-rc2,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,,,SLIM,native
+12.9.1-rc2,okd4,x86_64,v1.23.12+6b34f32,Red Hat Enterprise Linux CoreOS 410.84.202210211026-0 (Ootpa),4.18.0-305.65.1.el8_4.x86_64,cri-o,1.23.3-20.rhaos4.10.git89344de.el8,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,,,AGENT,native
+12.8.0-rc1,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.13,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,,,AGENT,native
+12.8.0-rc1,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,,,AGENT,native
+12.8.1-rc1,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.11.0-rc2,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.4.13,SLIM,helm
+12.11.0-rc2,eks,arm64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,docker,20.10.12,SLIM,docker
+0.1.driver,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,,,SLIM,native
+12.7.0-rc,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1009-aws,docker,20.10.12,AGENT,docker
+12.11.0-rc1,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.10.1,eks,arm64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+12.7.0-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,docker,19.03.15,AGENT,docker
+12.7.0-rc,eks,x86_64,v1.22.9-eks-810597c,Amazon Linux 2,5.4.196-108.356.amzn2.x86_64,docker,20.10.13,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-amd64,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,docker,20.10.21,SLIM,docker
+AGENT_PROBE,,,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,,
+12.9.0-rc1,,arm64,,Fedora Linux 35 (Cloud Edition),5.19.9-100.fc35.aarch64,docker,20.10.18,AGENT,docker
+12.8.0-rc2,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,,,AGENT,native
+12.8.1-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),5.18.19-200.fc36.x86_64,docker,20.10.17,AGENT,docker
+0.4.zhongcheng3843,,x86_64,,Amazon Linux 2,5.10.157-139.675.amzn2.x86_64,,,SLIM,native
+12.9.0-rc2,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.6.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,20.10.15,AGENT,docker
+12.6.0-rc,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1071-aws,docker,20.10.7,AGENT,docker
+12.10.0-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-22-cloud-amd64,docker,18.09.1,SLIM,docker
+12.4.0-rc,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.59.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.4.0-rc,okd4,x86_64,v1.20.11+e880017,Red Hat Enterprise Linux CoreOS 47.84.202202070903-0 (Ootpa),4.18.0-305.34.2.el8_4.x86_64,cri-o,1.20.6-7.rhaos4.7.gitd7f3909.el8,SLIM & AGENT,kubernetes & helm
+12.9.1-rc2,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.7.1-rc,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1013-aws,docker,20.10.12,AGENT,docker
+12.7.1-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,docker,20.10.17,AGENT,docker
+12.7.1-rc,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,docker,20.10.7,AGENT,docker
+0.0.zhongcheng,,x86_64,,Amazon Linux 2,4.14.281-212.502.amzn2.x86_64,,,AGENT,native
+12.8.1-rc1,kops,arm64,v1.24.3,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,,,SLIM,native
+12.11.0-rc3,eks,arm64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+dev,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,docker,19.03.15,AGENT,docker
+12.11.0-rc1,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM,helm
+SMAGENT-4468-linux-amd64,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+SMAGENT-4468-linux-amd64,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.7.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.66.1.el7.x86_64,docker,20.10.17,AGENT,docker
+12.7.0-rc,,arm64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.9.1.el8.aarch64,docker,20.10.17,AGENT,docker
+12.8.1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,docker,20.10.18,AGENT,docker
+12.8.1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-amd64,,x86_64,,SLES 15-SP4,5.14.21-150400.24.33-default,docker,20.10.17-ce,SLIM,docker
+12.9.0-rc1,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.5.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.4-100.fc34.x86_64,,,AGENT,native
+12.8.1-rc1,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.13,AGENT,helm
+12.9.0-rc3,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.76.1.el7.x86_64,cri-o,1.22.5-10.rhaos4.9.gitd14fede.el7,SLIM & AGENT,kubernetes & helm
+latest,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.5.10,AGENT,helm
+latest,gke,x86_64,v1.22.11-gke.400,Container-Optimized OS from Google,5.10.109+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc2,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,AGENT,docker
+12.10.1-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,,,SLIM,native
+12.10.1-rc1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,,,SLIM,native
+12.10.1-rc1,eks,x86_64,v1.22.15-eks-fb459a0,Amazon Linux 2,5.4.219-126.411.amzn2.x86_64,docker,20.10.17,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+smagent4078s390x5b,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.0-rc1,kops,x86_64,v1.25.4,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.10,SLIM,helm
+12.10.0-rc2,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.4.13,SLIM,helm
+12.6.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1004-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc2,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1085-aws,docker,20.10.7,AGENT,docker
+12.6.0-rc,,x86_64,,Amazon Linux 2022,5.15.29-16.111.amzn2022.x86_64,docker,20.10.13,AGENT,docker
+12.10.0-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,docker,20.10.21,SLIM,docker
+latest,kops,x86_64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,SLIM,kubernetes
+latest,,x86_64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.x86_64,docker,20.10.17,AGENT,docker
+dev,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,docker,20.10.22,SLIM,docker
+12.7.1-rc,,x86_64,,Amazon Linux 2,4.14.281-212.502.amzn2.x86_64,docker,20.10.13,AGENT,docker
+12.7.1-rc,kops,arm64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,,x86_64,,Amazon Linux 2,4.14.285-215.501.amzn2.x86_64,,,AGENT,native
+12.8.1-rc1,eks,arm64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.0 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.10.1,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+12.11.0-rc3,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,docker,18.09.1,SLIM,docker
+12.11.0-rc3,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.x86_64,,,SLIM,native
+12.11.0-rc2,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,,,SLIM,native
+12.7.0-rc,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,docker,18.09.7,AGENT,docker
+SMAGENT-4468-linux-amd64,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.7.0-rc,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,docker,20.10.7,AGENT,docker
+12.7.0-rc,roks,x86_64,v1.22.8+f34b40c,Red Hat,3.10.0-1160.66.1.el7.x86_64,cri-o,1.22.5-3.rhaos4.9.gitb6d3a87.el7,SLIM & AGENT,kubernetes & helm
+AGENT_PROBE,,,,Fedora Linux 36 (Cloud Edition),6.0.5-200.fc36.x86_64,docker,20.10.21,,
+12.9.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1019-aws,,,AGENT,native
+12.8.0-rc2,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+0.4.zzhongcheng3843,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+12.10.1-rc1,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.12-100.fc35.x86_64,docker,20.10.22,SLIM,docker
+12.10.0-rc2,kops,x86_64,v1.25.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.10.0-rc2,iks,x86_64,v1.24.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-197-generic,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.6.0,,x86_64,,Amazon Linux 2,4.14.276-211.499.amzn2.x86_64,docker,20.10.13,SLIM,docker
+12.9.0-rc2,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.6.0-rc,,arm64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.9.1.el8.aarch64,docker,20.10.16,AGENT,docker
+12.4.0,gke,x86_64,v1.21.6-gke.1503,Container-Optimized OS from Google,5.4.144+,containerd,1.4.8,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,,,AGENT,native
+12.8.0-rc1,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-19-amd64,,,AGENT,native
+dev,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.aarch64,docker,23.0.1,SLIM,docker
+12.8.1-rc1,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.15.0-1017-aws,,,AGENT,native
+dev,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc3,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.5.10,SLIM,helm
+drift,kops,x86_64,v1.24.10,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,AGENT,helm
+upgrade_patchelf-linux-amd64,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.x86_64,docker,23.0.0,SLIM,docker
+do_not_patchelf-linux-amd64,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,23.0.0,SLIM,docker
+0.1.1dev,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,AGENT,helm
+12.8.1,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,docker,20.10.18,AGENT,docker
+12.9.0-rc3,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,docker,20.10.17,AGENT,docker
+AGENT_PROBE,,,,Fedora Linux 35 (Cloud Edition),6.0.5-100.fc35.aarch64,docker,20.10.21,,
+12.9.1-rc1,kops,arm64,v1.25.4,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+12.10.0-rc2,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+12.6.0-rc,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1004-aws,docker,20.10.12,AGENT,docker
+12.6.0,,x86_64,,Amazon Linux 2022,5.15.29-16.111.amzn2022.x86_64,docker,20.10.13,AGENT,docker
+12.9.0,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.aarch64,docker,20.10.21,SLIM,docker
+12.10.0-rc1,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.4.13,SLIM,helm
+12.6.0-rc,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1072-aws,docker,20.10.7,AGENT,docker
+12.10.0-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+latest,,x86_64,,Fedora Linux 35 (Cloud Edition),5.19.14-100.fc35.x86_64,docker,20.10.19,AGENT,docker
+12.9.0-rc2,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.5.10,AGENT,helm
+12.3.1,gke,x86_64,v1.21.9-gke.1002,Container-Optimized OS from Google,5.4.170+,containerd,1.4.8,AGENT,kubernetes
+12.4.0,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1068-aws,docker,20.10.7,AGENT,docker
+12.8.1-rc1,,arm64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.22.1.el9_0.aarch64,docker,20.10.17,AGENT,docker
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.8-100.fc36.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc2,iks,x86_64,v1.25.6+IKS,Ubuntu 18.04.6 LTS,4.15.0-202-generic,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+12.11.0-rc1,,arm64,,Fedora Linux 37 (Cloud Edition),6.1.8-200.fc37.aarch64,docker,20.10.23,SLIM,docker
+12.11.0-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,23.0.0,SLIM,docker
+12.7.0-rc,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.66.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+SMAGENT-4064-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+AGENT_PROBE,,,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1088-aws,,,,
+12.9.0-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,docker,20.10.18,AGENT,docker
+12.10.0-rc1,iks,x86_64,v1.24.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-197-generic,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+smagent-4261-linux-arm64,,arm64,,Fedora Linux 35 (Cloud Edition),6.0.9-100.fc35.aarch64,docker,20.10.21,SLIM,docker
+12.5.0-rc,,arm64,,Amazon Linux 2,4.14.275-207.503.amzn2.aarch64,docker,20.10.7,AGENT,docker
+12.10.0-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+jemalloc-linux-amd64,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,SLIM,helm
+12.10.1-rc1,,x86_64,,Amazon Linux 2,5.10.157-139.675.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.10.1-rc1,iks,x86_64,v1.24.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-197-generic,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+smagent4078s390x5,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.0-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,,,SLIM,native
+12.10.0-rc2,eks,arm64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+12.6.0-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,docker,19.03.15,AGENT,docker
+12.9.0-rc2,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,docker,20.10.17,AGENT,docker
+12.10.0-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1023-aws,,,SLIM,native
+latest,,x86_64,,Amazon Linux 2,5.10.144-127.601.amzn2.x86_64,docker,20.10.17,AGENT,docker
+12.4.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.59.1.el7.x86_64,,,AGENT,native
+12.4.0,iks,x86_64,v1.22.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-175-generic,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+12.4.0,kops,x86_64,v1.21.9,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,AGENT,kubernetes
+12.4.0,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+12.9.1-rc2,,arm64,,Fedora Linux 35 (Cloud Edition),6.0.7-100.fc35.aarch64,docker,20.10.21,SLIM,docker
+12.4.0,,arm64,,Amazon Linux 2,4.14.275-207.503.amzn2.aarch64,docker,20.10.7,AGENT,docker
+12.10.1,roks,x86_64,v1.22.15+c763d11,Red Hat,3.10.0-1160.83.1.el7.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el7,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc2,,arm64,,Fedora Linux 36 (Cloud Edition),6.1.8-100.fc36.aarch64,docker,23.0.0,SLIM,docker
+upgrade_patchelf-linux-amd64,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+upgrade_patchelf-linux-amd64,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.x86_64,docker,23.0.0,SLIM,docker
+0.99.8857dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.7.0-rc,iks,x86_64,v1.22.10+IKS,Ubuntu 18.04.6 LTS,4.15.0-180-generic,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+dev,iks,x86_64,v1.25.5+IKS,Ubuntu 18.04.6 LTS,4.15.0-202-generic,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+remove_libksba-linux-amd64,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+dev,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.5.0-rc,,x86_64,,Amazon Linux 2,5.10.106-102.504.amzn2.x86_64,docker,20.10.7,AGENT,docker
+12.5.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1021-aws,docker,20.10.7,AGENT,docker
+12.8.1,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+SMAGENT-4225-linux-amd64,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.8.1-rc1,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.19.1.el8_6.x86_64,docker,20.10.17,AGENT,docker
+12.10.0-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.11-100.fc35.x86_64,docker,20.10.21,SLIM,docker
+12.10.0-rc1,,arm64,,Amazon Linux 2,5.10.155-138.670.amzn2.aarch64,docker,20.10.17,SLIM,docker
+0.2.newgpg,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,SLIM,native
+12.10.1-rc1,,arm64,,Fedora Linux 36 (Cloud Edition),6.0.12-200.fc36.aarch64,docker,20.10.22,SLIM,docker
+12.10.1-rc1,gke,x86_64,v1.24.5-gke.600,Container-Optimized OS from Google,5.10.133+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.5.0,gke,x86_64,v1.21.10-gke.2000,Container-Optimized OS from Google,5.4.170+,containerd,1.4.8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,docker,20.10.21,SLIM,docker
+12.10.0-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,docker,20.10.21,SLIM,docker
+12.6.0-rc,kops,arm64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.6.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1071-aws,docker,20.10.7,AGENT,docker
+12.6.0,roks,x86_64,v1.22.8+c02bd9d,Red Hat,3.10.0-1160.66.1.el7.x86_64,cri-o,1.22.3-6.rhaos4.9.git388405c.el7,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,,,SLIM,native
+latest,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,AGENT,helm
+12.6.0-rc,,x86_64,,Amazon Linux 2022,5.15.29-16.111.amzn2022.x86_64,docker,20.10.7,AGENT,docker
+12.4.0-rc,,x86_64,,Amazon Linux 2,4.14.268-205.500.amzn2.x86_64,,,AGENT,native
+0.0.zhongcheng,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.71.1.el7.x86_64,,,AGENT,native
+12.8.1-rc1,kops,x86_64,v1.24.4,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+dev,,arm64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+dev,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,,,SLIM,native
+dev,,x86_64,,Amazon Linux 2,5.10.165-143.735.amzn2.x86_64,,,SLIM,native
+12.11.0-rc2,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+12.11.0-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc2,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc3,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,,,SLIM,native
+do_not_patchelf-linux-amd64,,x86_64,,Amazon Linux 2,5.10.165-143.735.amzn2.x86_64,docker,20.10.17,SLIM,docker
+dev,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.12-100.fc35.x86_64,docker,20.10.22,SLIM,docker
+12.11.0-rc1,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.4.13,SLIM,helm
+latest,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,,x86_64,,Amazon Linux 2022,5.15.43-20.123.amzn2022.x86_64,docker,20.10.17,AGENT,docker
+12.5.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,,,AGENT,native
+12.9.0-rc1,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,AGENT,helm
+12.9.0-rc1,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,docker,20.10.18,AGENT,docker
+smagent-4261-linux-arm64,,arm64,,SLES 15-SP4,5.14.21-150400.24.33-default,docker,20.10.17-ce,SLIM,docker
+AGENT_PROBE,,,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,docker,20.10.21,,
+AGENT_PROBE,,,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,,,,
+12.8.0,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,SLIM,helm
+12.10.1-rc1,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-22-arm64,docker,18.09.1,SLIM,docker
+12.5.0,iks,x86_64,v1.22.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-176-generic,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+0.99.8653dev,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,AGENT,helm
+QA-5962-update-linux-amd64,,x86_64,,Amazon Linux 2,5.10.157-139.675.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.10.0-rc2,,x86_64,,Amazon Linux 2,5.10.155-138.670.amzn2.x86_64,,,SLIM,native
+0.zhongcheng3987.2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1084-aws,,,AGENT,native
+12.7.0-rc5,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.9.0-rc2,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1020-aws,docker,20.10.12,AGENT,docker
+12.9.1,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.0-rc1,,arm64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,SLIM,docker
+12.10.0-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.10-100.fc35.x86_64,docker,20.10.21,SLIM,docker
+12.9.0-rc3,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,AGENT,docker
+dev,,x86_64,,Amazon Linux 2,5.10.157-139.675.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.9.0-rc2,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.4.13,SLIM,helm
+12.4.0-rc,kops,arm64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-19-amd64,docker,19.03.15,AGENT,docker
+12.8.0-rc1,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.16.1.el8_6.x86_64,,,AGENT,native
+12.8.0-rc1,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.8.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,docker,20.10.7,AGENT,docker
+testing,,x86_64,,Amazon Linux 2,4.14.287-215.504.amzn2.x86_64,,,AGENT,native
+12.8.1-rc1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+dev,,arm64,,Amazon Linux 2,5.10.165-143.735.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.11.0-rc1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,,,SLIM,native
+12.11.0-rc3,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+12.11.0-rc3,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.11.0-rc3,,arm64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+12.11.0-rc3,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.83.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+0.99.8858dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+upgrade_patchelf-linux-amd64,,x86_64,,Amazon Linux 2,5.10.165-143.735.amzn2.x86_64,docker,20.10.17,SLIM,docker
+do_not_patchelf-linux-amd64,,x86_64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+dev,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+dev,gke,x86_64,v1.24.7-gke.900,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1025-aws,docker,20.10.12,AGENT,docker
+12.5.0-rc,,arm64,,Ubuntu 22.04 (Jammy Jellyfish),5.15.0-1004-aws,docker,20.10.12,AGENT,docker
+12.7.0-rc6,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+dev,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.4.13,SLIM,helm
+12.9.0-rc3,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1085-aws,docker,20.10.7,AGENT,docker
+smagent-4261-linux-arm64,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+12.8.0-rc2,,x86_64,,Amazon Linux 2,4.14.287-215.504.amzn2.x86_64,docker,20.10.13,AGENT,docker
+12.9.1-rc1,kops,x86_64,v1.25.4,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.8.0,gke,x86_64,v1.22.10-gke.600,Container-Optimized OS from Google,5.10.109+,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,arm64,,Amazon Linux 2,5.10.155-138.670.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.10.0-rc2,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+0.zhongcheng3987.2,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+12.8.1,,x86_64,,Fedora Linux 35 (Cloud Edition),5.19.9-100.fc35.x86_64,,,AGENT,native
+12.6.0-rc,,x86_64,,Amazon Linux 2022,5.15.25-14.106.amzn2022.x86_64,docker,20.10.7,AGENT,docker
+12.4.0,,x86_64,,Amazon Linux 2022,5.15.25-14.106.amzn2022.x86_64,docker,20.10.7,AGENT,docker
+12.10.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,docker,20.10.12,SLIM,docker
+12.10.0-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,,,SLIM,native
+12.10.0-rc2,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,arm64,,Amazon Linux 2,5.10.149-133.644.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.4.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1068-aws,docker,20.10.7,AGENT,docker
+12.4.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.59.1.el7.x86_64,,,AGENT,native
+SMAGENT3619-linux-amd64,,x86_64,,Fedora Linux 35 (Cloud Edition),5.16.18-200.fc35.x86_64,docker,20.10.14,AGENT,docker
+12.4.0,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.62.1.el7.x86_64,,,AGENT,native
+12.7.0-rc,kops,arm64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,eks,x86_64,v1.22.9-eks-810597c,Amazon Linux 2,5.4.196-108.356.amzn2.x86_64,docker,20.10.13,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,,,SLIM,native
+12.11.0-rc3,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc3,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,,,SLIM,native
+12.11.0-rc3,k8s,x86_64,v1.26.1,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.8-100.fc36.x86_64,docker,23.0.0,SLIM,docker
+12.6.0,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1025-aws,docker,20.10.12,AGENT,docker
+remove_libksba-linux-amd64,,x86_64,,SLES 15-SP4,5.14.21-150400.24.38-default,docker,20.10.17-ce,SLIM,docker
+SMAGENT-4468-linux-amd64,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.10.1,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,roks,x86_64,v1.22.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-175-generic,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.62.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.8.1,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.4.13,AGENT,helm
+12.7.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.18.5-100.fc35.x86_64,docker,20.10.17,AGENT,docker
+12.9.0-rc1,,arm64,,Fedora Linux 35 (Cloud Edition),5.19.11-100.fc35.aarch64,docker,20.10.18,AGENT,docker
+12.9.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1020-aws,,,AGENT,native
+12.8.0-rc2,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+SMAGENT-4225-linux-amd64,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.10.1-rc1,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202211291109-0 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,cri-o,1.24.3-6.rhaos4.11.gitc4567c0.el8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.10.0-rc2,,arm64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.aarch64,docker,20.10.21,SLIM,docker
+12.10.0-rc2,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.aarch64,docker,20.10.21,SLIM,docker
+12.6.0,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1022-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,gke,x86_64,v1.24.5-gke.600,Container-Optimized OS from Google,5.10.133+,containerd,1.6.6,SLIM,helm
+12.9.0-rc2,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1020-aws,docker,20.10.12,AGENT,docker
+12.10.0-rc1,okd4,x86_64,v1.24.6+5157800,Red Hat Enterprise Linux CoreOS 411.86.202211072153-0 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,cri-o,1.24.3-5.rhaos4.11.gitc4567c0.el8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,,,AGENT,native
+latest,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1021-aws,docker,20.10.12,AGENT,docker
+latest,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,docker,20.10.19,AGENT,docker
+12.4.0-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.4.0,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.x86_64,,,AGENT,native
+12.9.1-rc2,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+12.9.1-rc2,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.30.1.el9_0.x86_64,,,SLIM,native
+12.7.0-rc7,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.7.1-rc,okd4,x86_64,v1.22.8+f34b40c,Red Hat Enterprise Linux CoreOS 49.84.202206082248-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.22.5-3.rhaos4.9.gitb6d3a87.el8,SLIM & AGENT,kubernetes & helm
+0.0.zhongcheng,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.13.1.el8_6.x86_64,docker,20.10.17,AGENT,docker
+dev,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+dev,,arm64,,Fedora Linux 36 (Cloud Edition),6.1.10-100.fc36.aarch64,docker,23.0.1,SLIM,docker
+12.11.0-rc2,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.aarch64,docker,20.10.23,SLIM,docker
+dev,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.7-200.fc37.x86_64,docker,20.10.23,SLIM,docker
+dev,eks,arm64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+remove_libksba-linux-amd64,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+12.10.1-rc1,iks,x86_64,v1.24.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-202-generic,containerd,1.6.15,SLIM,helm
+dev,okd4,x86_64,v1.22.15+c763d11,Red Hat Enterprise Linux CoreOS 49.84.202212201621-0 (Ootpa),4.18.0-305.72.1.el8_4.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el8,SLIM,helm
+12.5.0-rc,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1021-aws,docker,20.10.7,AGENT,docker
+12.5.0-rc,eks,x86_64,v1.21.5-eks-9017834,Amazon Linux 2,5.4.181-99.354.amzn2.x86_64,docker,20.10.13,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.x86_64,,,AGENT,native
+12.5.0-rc,,x86_64,,Amazon Linux 2,4.14.273-207.502.amzn2.x86_64,,,AGENT,native
+remove_systemd_libs-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,SLIM,docker
+12.9.0-rc1,,arm64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.26.1.el9_0.aarch64,docker,20.10.18,AGENT,docker
+12.10.0-rc1,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.4.13,AGENT,helm
+12.8.0-rc2,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,docker,20.10.7,AGENT,docker
+12.8.0-rc2,,arm64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.16.1.el8_6.aarch64,docker,20.10.17,AGENT,docker
+12.9.1-rc1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1088-aws,docker,20.10.7,SLIM,docker
+12.9.1-rc1,,arm64,,SLES 15-SP4,5.14.21-150400.24.28-default,docker,20.10.17-ce,SLIM,docker
+12.5.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1022-aws,docker,20.10.7,AGENT,docker
+12.8.1-rc1,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.15.0-1017-aws,docker,20.10.12,AGENT,docker
+12.10.0-rc1,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.aarch64,docker,20.10.21,SLIM,docker
+smagent4078s390x4,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.1-rc1,,x86_64,,SLES 15-SP4,5.14.21-150400.24.33-default,docker,20.10.17-ce,SLIM,docker
+12.10.1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+0.zhongcheng3987.2,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1019-aws,,,AGENT,native
+12.6.0-rc,iks,x86_64,v1.22.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-176-generic,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+12.6.0-rc,,arm64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.23.1.el8_5.aarch64,docker,20.10.15,AGENT,docker
+12.6.0-rc,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.9.1.el8.x86_64,,,AGENT,native
+12.4.0-rc,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.4.0,,x86_64,,Ubuntu 22.04 (Jammy Jellyfish),5.15.0-1004-aws,,,AGENT,native
+12.9.1-rc2,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.aarch64,docker,20.10.21,SLIM,docker
+12.8.1-rc1,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,AGENT,docker
+dev,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.10-200.fc37.x86_64,,,SLIM,native
+dev,k8s,x86_64,v1.26.1,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+12.8.0,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.11.0-rc3,,arm64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.aarch64,docker,23.0.0,SLIM,docker
+dev,roks,x86_64,v1.22.15+c763d11,Red Hat,3.10.0-1160.81.1.el7.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el7,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.13-200.fc35.x86_64,docker,20.10.17,AGENT,docker
+12.11.0-rc1,,arm64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,SLIM,docker
+SMAGENT-4468-linux-amd64,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.4.13,SLIM,helm
+SMAGENT-4468-linux-amd64,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,20.10.23,SLIM,docker
+dev,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.81.1.el7.x86_64,docker,20.10.23,SLIM,docker
+12.8.0-rc1,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.13,AGENT,helm
+12.5.0-rc,okd4,x86_64,v1.19.16+6175753,Red Hat Enterprise Linux CoreOS 46.82.202203141332-0 (Ootpa),4.18.0-193.79.1.el8_2.x86_64,cri-o,1.19.5-3.rhaos4.6.git91f8458.el8,SLIM & AGENT,kubernetes & helm
+12.8.1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-amd64,docker,20.10.5+dfsg1,AGENT,docker
+smagent-4078-s390x-1,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+SMAGENT-4225-linux-arm64,,arm64,,Fedora Linux 36 (Cloud Edition),6.0.8-200.fc36.aarch64,docker,20.10.21,SLIM,docker
+latest,eks,x86_64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.2 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,gke,x86_64,v1.22.8-gke.202,Container-Optimized OS from Google,5.10.90+,containerd,1.5.4,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+12.9.1-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,SLIM,docker
+12.8.0,okd4,x86_64,v1.22.8+f34b40c,Red Hat Enterprise Linux CoreOS 49.84.202207070907-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.22.5-7.rhaos4.9.git3dbcd3c.el8,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,,x86_64,,SLES 15-SP4,5.14.21-150400.24.18-default,docker,20.10.17-ce,AGENT,docker
+12.9.1-rc2,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.80.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,docker,20.10.12,SLIM,docker
+smagent4078x865f,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.4.13,SLIM,helm
+0.4.zzhongcheng3843,gke,x86_64,v1.24.7-gke.900,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+12.10.0-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.11-100.fc35.x86_64,,,SLIM,native
+12.10.1-rc1,eks,arm64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.5.0,,x86_64,,Ubuntu 22.04 (Jammy Jellyfish),5.15.0-1004-aws,docker,20.10.12,AGENT,docker
+12.10.0-rc2,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,,,SLIM,native
+12.10.0-rc2,,arm64,,Fedora Linux 35 (Cloud Edition),6.0.12-100.fc35.aarch64,docker,20.10.21,SLIM,docker
+12.6.0,iks,x86_64,v1.22.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-177-generic,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,,arm64,,Fedora Linux 35 (Cloud Edition),5.19.11-100.fc35.aarch64,docker,20.10.18,AGENT,docker
+12.6.0-rc,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.9.1.el8.x86_64,docker,20.10.16,AGENT,docker
+12.10.0-rc1,eks,arm64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,,,AGENT,native
+12.9.1-rc2,,arm64,,Amazon Linux 2,5.10.149-133.644.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.7.1-rc,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,AGENT,helm
+dev,roks,x86_64,v1.22.15+c763d11,Red Hat,3.10.0-1160.83.1.el7.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el7,SLIM & AGENT,kubernetes & helm
+dev,k8s,x86_64,v1.24.10,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,,x86_64,,Amazon Linux 2,5.10.165-143.735.amzn2.x86_64,,,SLIM,native
+12.11.0-rc3,kops,arm64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,23.0.0,SLIM,docker
+0.1.1dev,k8s,x86_64,v1.26.1,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,containerd,1.6.15,AGENT,helm
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.5-100.fc36.x86_64,docker,20.10.22,SLIM,docker
+dev,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.4.13,SLIM,helm
+dev,,arm64,,Fedora Linux 35 (Cloud Edition),6.0.12-100.fc35.aarch64,docker,20.10.22,SLIM,docker
+SMAGENT-4468-linux-amd64,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.5.0-rc,,x86_64,,Amazon Linux 2,4.14.273-207.502.amzn2.x86_64,docker,20.10.7,AGENT,docker
+12.7.0-rc,,x86_64,,Amazon Linux 2022,5.15.43-20.123.amzn2022.x86_64,docker,20.10.13,AGENT,docker
+12.7.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,docker,20.10.17,AGENT,docker
+12.8.1,kops,x86_64,v1.24.4,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+0.99.8730dev,eks,x86_64,v1.22.15-eks-57e9f9a,Bottlerocket OS 1.10.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,,,AGENT,native
+12.8.0-rc2,okd4,x86_64,v1.21.11+6b3cbdd,Red Hat Enterprise Linux CoreOS 48.84.202206281246-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.21.8-6.rhaos4.8.gitd78036c.el8,SLIM & AGENT,kubernetes & helm
+SMAGENT-3959-linux-amd64,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.19.1.el8_6.x86_64,,,AGENT,native
+12.10.1-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,,,SLIM,native
+12.10.1-rc1,,zlinux,,Red Hat Enterprise Linux 8.4 (Ootpa),4.18.0-305.el8.s390x,docker,20.10.8,SLIM,docker
+12.10.0-rc2,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.12-100.fc35.x86_64,docker,20.10.21,SLIM,docker
+12.10.0-rc2,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,,,SLIM,native
+12.10.0-rc2,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,,,SLIM,native
+12.5.0-rc,roks,x86_64,v1.21.8+ee73ea2,Red Hat,3.10.0-1160.62.1.el7.x86_64,cri-o,1.21.6-2.rhaos4.8.gitb948fcd.el7,SLIM & AGENT,kubernetes & helm
+0.1.xiao3843,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+0.1.xiao3843,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1089-aws,docker,20.10.12,SLIM,docker
+12.9.0-rc3,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1085-aws,,,AGENT,native
+latest,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1086-aws,docker,20.10.7,AGENT,docker
+12.4.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.16.16-200.fc35.x86_64,docker,20.10.13,AGENT,docker
+12.4.0,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,,,AGENT,native
+12.7.1-rc,roks,x86_64,v1.22.8+f34b40c,Red Hat,3.10.0-1160.66.1.el7.x86_64,cri-o,1.22.5-3.rhaos4.9.gitb6d3a87.el7,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.8-100.fc36.x86_64,,,SLIM,native
+12.11.0-rc2,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,docker,18.09.1,SLIM,docker
+12.11.0-rc3,,arm64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.aarch64,docker,23.0.0,SLIM,docker
+12.11.0-rc3,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.x86_64,docker,23.0.0,SLIM,docker
+do_not_patchelf-linux-amd64,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,23.0.0,SLIM,docker
+12.7.0-rc,okd4,x86_64,v1.20.15+98b2293,Red Hat Enterprise Linux CoreOS 47.84.202205120307-0 (Ootpa),4.18.0-305.45.1.el8_4.x86_64,cri-o,1.20.7-2.rhaos4.7.git9f2a5c0.el8,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,docker,18.09.7,AGENT,docker
+dev,kops,arm64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+dev,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.aarch64,docker,20.10.22,SLIM,docker
+dev,,arm64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.aarch64,docker,20.10.22,SLIM,docker
+remove_libksba-linux-amd64,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,20.10.23,SLIM,docker
+12.5.0-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+SMAGENT-4225-linux-amd64,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+AGENT_PROBE,,,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,,,,
+12.9.0-rc1,,x86_64,,SLES 15-SP4,5.14.21-150400.24.21-default,docker,20.10.17-ce,AGENT,docker
+12.9.1-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,SLIM,native
+12.9.1-rc1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.80.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,AGENT,helm
+0.4.zhongcheng3843,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.81.1.el7.x86_64,,,SLIM,native
+0.4.zzhongcheng3843,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+0.4.zhongcheng3843,gke,x86_64,v1.24.7-gke.900,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+12.10.1-rc1,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.81.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.aarch64,docker,20.10.22,SLIM,docker
+12.6.0,gke,x86_64,v1.21.11-gke.1100,Container-Optimized OS from Google,5.4.170+,containerd,1.4.8,SLIM & AGENT,kubernetes & helm
+0.1.xiao3843,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+0.1.xiao3843,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1085-aws,,,AGENT,native
+12.10.0-rc2,okd4,x86_64,v1.22.8+9e95cb9,Red Hat Enterprise Linux CoreOS 49.84.202211140918-0 (Ootpa),4.18.0-305.65.1.el8_4.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el8,SLIM,helm
+12.9.1-rc1,iks,x86_64,v1.24.7+IKS,Ubuntu 18.04.6 LTS,4.15.0-194-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,x86_64,,Amazon Linux 2,5.10.155-138.670.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.9.0-rc3,,arm64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.26.1.el9_0.aarch64,docker,20.10.18,AGENT,docker
+12.9.0-rc3,,arm64,,Amazon Linux 2,5.10.135-122.509.amzn2.aarch64,docker,20.10.17,AGENT,docker
+latest,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1021-aws,,,AGENT,native
+dev,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.81.1.el7.x86_64,,,SLIM,native
+12.4.0,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1021-aws,docker,20.10.7,AGENT,docker
+12.9.1-rc2,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1088-aws,docker,20.10.7,SLIM,docker
+12.6.0,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,docker,20.10.12,SLIM,docker
+12.7.1-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+12.7.1-rc,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.8.1-rc1,,arm64,,Amazon Linux 2022,5.15.57-28.127.amzn2022.aarch64,docker,20.10.17,AGENT,docker
+12.11.0-rc1,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.8-200.fc37.x86_64,,,SLIM,native
+12.11.0-rc2,eks,arm64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM,helm
+12.8.1-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),5.18.17-200.fc36.x86_64,,,AGENT,native
+12.11.0-rc2,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.11.0-rc1,kops,arm64,v1.24.10,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+upgrade_patchelf-linux-amd64,,x86_64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+12.7.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.12-200.fc35.x86_64,docker,20.10.17,AGENT,docker
+dev,roks,x86_64,v1.22.15+568b938,Red Hat,3.10.0-1160.81.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+SMAGENT-4468-linux-amd64,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+SMAGENT-4468-3-linux-amd64,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+SMAGENT-4365-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+latest,kops,x86_64,v1.24.4,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.8.1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+0.99.8730dev,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.4.13,AGENT,helm
+12.9.0-rc3,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.26.1.el9_0.x86_64,docker,20.10.18,AGENT,docker
+0.99.8656dev,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,,,AGENT,native
+12.8.0-rc2,iks,x86_64,v1.23.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-189-generic,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+SMAGENT-3959-linux-amd64,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.71.1.el7.x86_64,,,AGENT,native
+12.8.1-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,AGENT,docker
+latest,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.76.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+0.4.zhongcheng3843,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,,,SLIM,native
+0.4.zzhongcheng3843,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+latest,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.76.1.el7.x86_64,cri-o,1.22.5-7.rhaos4.9.git3dbcd3c.el7,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,,,SLIM,native
+12.5.0,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,x86_64,,Amazon Linux 2,5.10.155-138.670.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.10.0-rc2,kops,arm64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.6.0-rc,,x86_64,,Amazon Linux 2,4.14.276-211.499.amzn2.x86_64,,,AGENT,native
+12.10.0-rc1,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.9.0-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1085-aws,docker,20.10.7,AGENT,docker
+dev,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,20.10.22,SLIM,docker
+12.4.0,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,,,AGENT,native
+12.9.1-rc2,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.30.1.el9_0.x86_64,docker,20.10.21,SLIM,docker
+12.9.1-rc2,,x86_64,,Amazon Linux 2,5.10.149-133.644.amzn2.x86_64,,,SLIM,native
+12.7.1-rc,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.8.0,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+12.10.1,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+12.8.1-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),5.18.17-200.fc36.x86_64,docker,20.10.17,AGENT,docker
+12.11.0-rc3,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc2,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.x86_64,,,SLIM,native
+12.7.0-rc2,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+dev,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-20-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+dev,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1093-aws,docker,20.10.12,SLIM,docker
+remove_libksba-linux-amd64,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,docker,18.09.1,SLIM,docker
+12.5.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.16.19-200.fc35.x86_64,docker,20.10.14,AGENT,docker
+12.7.0-rc,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.8.1,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,AGENT,helm
+SMAGENT-4225-linux-amd64,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,docker,20.10.21,SLIM,docker
+SMAGENT-4225-linux-arm64,,arm64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.aarch64,docker,20.10.21,SLIM,docker
+12.10.0-rc1,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.80.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+12.8.0-rc2,kops,arm64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.5.10,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1088-aws,docker,20.10.7,SLIM,docker
+12.9.1-rc1,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.9.1-rc1,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.30.1.el9_0.x86_64,,,SLIM,native
+SMAGENT-3959-linux-amd64,,x86_64,,Amazon Linux 2,5.10.130-118.517.amzn2.x86_64,,,AGENT,native
+12.5.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.4-200.fc35.x86_64,docker,20.10.14,AGENT,docker
+SMAGENT-4225-linux-amd64,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.0 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+0.4.zhongcheng3843,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,,,SLIM,native
+12.10.1-rc1,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.4.13,SLIM,helm
+12.10.0-rc1,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.5.10,SLIM,helm
+12.5.0,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1022-aws,docker,20.10.12,AGENT,docker
+12.5.0,kops,arm64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,zlinux,,Red Hat Enterprise Linux 8.4 (Ootpa),4.18.0-305.el8.s390x,docker,20.10.8,SLIM,docker
+12.6.0-rc,,arm64,,Amazon Linux 2,4.14.276-211.499.amzn2.aarch64,docker,20.10.13,AGENT,docker
+12.9.0,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,docker,20.10.21,SLIM,docker
+12.9.0-rc2,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc2,,x86_64,,Fedora Linux 36 (Cloud Edition),5.19.11-200.fc36.x86_64,docker,20.10.18,AGENT,docker
+12.6.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1005-aws,,,AGENT,native
+12.10.0-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,SLIM,docker
+12.9.0-rc3,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-862.3.2.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+dev,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,,,SLIM,native
+12.9.0-rc2,kops,x86_64,v1.24.4,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.4.0-rc,gke,x86_64,v1.21.9-gke.1002,Container-Optimized OS from Google,5.4.170+,containerd,1.4.8,AGENT,kubernetes
+12.4.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.59.1.el7.x86_64,docker,20.10.13,AGENT,docker
+12.4.0-rc,gke,x86_64,v1.21.9-gke.1002,Container-Optimized OS from Google,5.4.170+,containerd,1.4.8,SLIM & AGENT,kubernetes & helm
+12.9.1-rc2,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+latest,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,AGENT,helm
+12.7.0-rc,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,AGENT,helm
+12.8.0-rc1,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-19-amd64,docker,19.03.15,AGENT,docker
+dev,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+12.8.1-rc1,,arm64,,Fedora Linux 35 (Cloud Edition),5.18.18-100.fc35.aarch64,docker,20.10.17,AGENT,docker
+12.11.0-rc2,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.8.1-rc1,,x86_64,,Amazon Linux 2,5.10.130-118.517.amzn2.x86_64,docker,20.10.17,AGENT,docker
+dev,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.11.0-rc3,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+12.11.0-rc2,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.8-100.fc36.x86_64,,,SLIM,native
+12.7.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1009-aws,docker,20.10.12,AGENT,docker
+SMAGENT-4468-linux-amd64,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,SLIM & AGENT,kubernetes & helm
+remove_libksba-linux-amd64,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1093-aws,docker,20.10.12,SLIM,docker
+12.10.1-rc1,roks,x86_64,v1.22.15+c763d11,Red Hat,3.10.0-1160.81.1.el7.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el7,SLIM,helm
+dev,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM,helm
+12.5.0-rc,,x86_64,,Ubuntu 22.04 (Jammy Jellyfish),5.15.0-1004-aws,docker,20.10.12,AGENT,docker
+12.8.1,gke,x86_64,v1.22.11-gke.400,Container-Optimized OS from Google,5.10.109+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202211230601-0 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,cri-o,1.24.3-6.rhaos4.11.gitc4567c0.el8,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,SLIM,docker
+12.9.1-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+SMAGENT-3959-linux-amd64,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+sync-baseliner,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,AGENT,helm
+12.9.0-rc3,kops,x86_64,v1.24.4,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-amd64,iks,x86_64,v1.24.7+IKS,Ubuntu 18.04.6 LTS,4.15.0-194-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+0.2.newgpg,,x86_64,,Amazon Linux 2,5.10.147-133.644.amzn2.x86_64,,,SLIM,native
+SMAGENT-3852-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.0-rc2,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-22-cloud-amd64,docker,18.09.1,SLIM,docker
+12.10.0-rc2,eks,arm64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,AGENT,native
+12.9.0-rc3,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.4.0-rc,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,docker,18.09.7,AGENT,docker
+SMAGENT3619-linux-amd64,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.62.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.4.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.59.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.7.1-rc,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,docker,20.10.7,AGENT,docker
+12.7.1-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,docker,19.03.15,AGENT,docker
+12.7.1-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,docker,20.10.12,AGENT,docker
+testing,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.11.0-rc2,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+12.11.0-rc3,,x86_64,,Amazon Linux 2,5.10.165-143.735.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.11.0-rc3,roks,x86_64,v1.22.15+c763d11,Red Hat,3.10.0-1160.83.1.el7.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el7,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,iks,x86_64,v1.25.6+IKS,Ubuntu 18.04.6 LTS,4.15.0-202-generic,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,,,SLIM,native
+drift,kops,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,AGENT,helm
+upgrade_patchelf-linux-amd64,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,23.0.0,SLIM,docker
+0.1.1dev,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,AGENT,helm
+12.7.0-rc,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1075-aws,docker,20.10.7,AGENT,docker
+SMAGENT-4468-linux-amd64,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+SMAGENT-4468-linux-amd64,,x86_64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+12.8.0-rc1,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+12.7.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,,,AGENT,native
+12.7.0-rc,,x86_64,,Amazon Linux 2,4.14.281-212.502.amzn2.x86_64,docker,20.10.13,AGENT,docker
+12.8.1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1019-aws,docker,20.10.12,AGENT,docker
+SMAGENT-4225-linux-arm64,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+AGENT_PROBE,,,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,,
+12.9.1-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,,,SLIM,native
+12.5.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.4-100.fc34.x86_64,docker,20.10.14,AGENT,docker
+smagent-4261-linux-s390x,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+remove_vulns_deps-linux-amd64,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1025-aws,docker,20.10.12,AGENT,docker
+12.6.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.5-100.fc34.x86_64,,,AGENT,native
+12.6.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1022-aws,,,AGENT,native
+12.6.0,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.76.1.el7.x86_64,cri-o,1.22.5-9.rhaos4.9.git70fb67b.el7,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.6.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.6-100.fc34.x86_64,docker,20.10.16,AGENT,docker
+0.3.zhongcheng3924.1,,x86_64,,Amazon Linux 2,5.10.149-133.644.amzn2.x86_64,,,SLIM,native
+12.9.1-rc1,eks,x86_64,v1.22.15-eks-57e9f9a,Bottlerocket OS 1.10.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.9.1-rc2,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,docker,20.10.21,SLIM,docker
+0.0.zhongcheng,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-19-amd64,,,AGENT,native
+12.8.0,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.19.1.el8_6.x86_64,,,AGENT,native
+dev,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+12.10.1,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,,,SLIM,native
+12.8.1-rc1,,x86_64,,Amazon Linux 2,5.10.130-118.517.amzn2.x86_64,,,AGENT,native
+dev,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc1,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+upgrade_patchelf-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+do_not_patchelf-linux-amd64,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+do_not_patchelf-linux-amd64,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.7.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.13-200.fc35.x86_64,,,AGENT,native
+12.7.0-rc4,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+fewer-raw-ptr-2-linux-amd64,kops,x86_64,v1.25.2,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1071-aws,docker,20.10.7,AGENT,docker
+12.7.0-rc,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.9.1.el8.x86_64,,,AGENT,native
+12.7.0-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.7.0-rc,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.9.1.el8.x86_64,docker,20.10.17,AGENT,docker
+12.8.1,,x86_64,,Fedora Linux 35 (Cloud Edition),5.19.8-100.fc35.x86_64,,,AGENT,native
+AGENT_PROBE,,,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1088-aws,docker,20.10.7,,
+AGENT_PROBE,,,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1022-aws,,,,
+12.9.0-rc1,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.26.1.el9_0.x86_64,docker,20.10.18,AGENT,docker
+12.9.1-rc1,,x86_64,,Amazon Linux 2,5.10.149-133.644.amzn2.x86_64,,,SLIM,native
+12.10.1-rc1,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.1-rc1,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.x86_64,,,SLIM,native
+12.5.0,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1071-aws,docker,20.10.7,AGENT,docker
+QA-5962-update-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.6.0-rc,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+0.1.xiao3843,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.80.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.26.1.el9_0.x86_64,docker,20.10.18,AGENT,docker
+12.9.0-rc2,,x86_64,,SLES 15-SP4,5.14.21-150400.24.21-default,docker,20.10.17-ce,AGENT,docker
+12.9.1-rc2,,zlinux,,Red Hat Enterprise Linux 8.4 (Ootpa),4.18.0-305.el8.s390x,docker,20.10.8,SLIM,docker
+12.10.0-rc1,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+12.9.0-rc3,,arm64,,Fedora Linux 35 (Cloud Edition),5.19.12-100.fc35.aarch64,docker,20.10.18,AGENT,docker
+12.4.0-rc,,x86_64,,Amazon Linux 2,4.14.268-205.500.amzn2.x86_64,docker,20.10.7,AGENT,docker
+12.9.1-rc2,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.7.1-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,docker,20.10.17,AGENT,docker
+12.11.0-rc2,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc2,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc3,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.x86_64,docker,23.0.0,SLIM,docker
+dev,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM,helm
+12.11.0-rc1,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.8-200.fc37.x86_64,docker,20.10.23,SLIM,docker
+12.10.1,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.4.13,SLIM,helm
+dev,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202212072103-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.3-7.rhaos4.11.gitae53655.el8,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1011-aws,docker,20.10.12,AGENT,docker
+12.8.1,,x86_64,,SLES 15-SP4,5.14.21-150400.24.18-default,docker,20.10.17-ce,AGENT,docker
+12.9.0-rc1,,x86_64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.x86_64,docker,20.10.17,AGENT,docker
+12.9.0-rc1,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.10.0-rc1,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,,x86_64,,Amazon Linux 2022,5.15.43-20.123.amzn2022.x86_64,docker,20.10.17,AGENT,docker
+SMAGENT-3959-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+12.8.0,iks,x86_64,v1.23.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-189-generic,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,arm64,,Fedora Linux 35 (Cloud Edition),6.0.11-100.fc35.aarch64,docker,20.10.21,SLIM,docker
+12.9.0-rc3,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.76.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.12-100.fc35.x86_64,,,SLIM,native
+12.10.1-rc1,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+smagent4078s390x5g,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.0-rc2,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.6.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1022-aws,docker,20.10.12,AGENT,docker
+12.6.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1004-aws,,,AGENT,native
+0.1.xiao3843,gke,x86_64,v1.23.12-gke.100,Container-Optimized OS from Google,5.10.133+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-arm64,docker,20.10.5+dfsg1,AGENT,docker
+12.9.1,eks,x86_64,v1.22.15-eks-fb459a0,Amazon Linux 2,5.4.219-126.411.amzn2.x86_64,docker,20.10.17,SLIM,helm
+latest,,x86_64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.x86_64,,,AGENT,native
+latest,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,AGENT,docker
+dev,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,,,SLIM,native
+dev,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.4.0-rc,iks,x86_64,v1.22.7+IKS,Ubuntu 18.04.6 LTS,4.15.0-171-generic,containerd,1.5.10,SLIM & AGENT,kubernetes & helm
+12.4.0,,x86_64,,Fedora Linux 35 (Cloud Edition),5.16.18-200.fc35.x86_64,docker,20.10.14,AGENT,docker
+12.4.0,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1068-aws,,,AGENT,native
+12.4.0,kops,arm64,v1.20.0,Ubuntu 20.04.4 LTS,5.13.0-1017-aws,containerd,1.4.12,AGENT,kubernetes
+12.7.1-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1080-aws,docker,20.10.7,AGENT,docker
+12.8.1-rc1,,arm64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.19.1.el8_6.aarch64,docker,20.10.17,AGENT,docker
+12.8.1-rc1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1083-aws,docker,20.10.7,AGENT,docker
+12.8.1-rc1,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.15.0-1017-aws,docker,20.10.12,AGENT,docker
+12.8.0,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1083-aws,,,AGENT,native
+dev,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc3,eks,arm64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM,helm
+dev,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.81.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+dev,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202212072103-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.3-7.rhaos4.11.gitae53655.el8,SLIM,helm
+12.7.0-rc,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1078-aws,docker,20.10.7,AGENT,docker
+12.10.1-rc1,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+12.5.0-rc,,x86_64,,CentOS Linux 7 (Core),3.10.0-1160.62.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.7.0-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+12.7.0-rc,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.8.1,iks,x86_64,v1.23.10+IKS,Ubuntu 18.04.6 LTS,4.15.0-192-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-arm64,,arm64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.aarch64,docker,20.10.21,SLIM,docker
+AGENT_PROBE,,,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.30.1.el9_0.aarch64,docker,20.10.21,,
+12.9.0-rc1,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1019-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1084-aws,docker,20.10.7,AGENT,docker
+12.9.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1084-aws,docker,20.10.7,AGENT,docker
+12.9.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1020-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),5.19.11-100.fc35.x86_64,docker,20.10.18,AGENT,docker
+12.10.0-rc1,kops,x86_64,v1.25.5,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+smagent-4261-linux-arm64,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,SLIM,docker
+12.9.1-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1022-aws,docker,20.10.12,SLIM,docker
+12.9.1-rc2,okd4,x86_64,v1.22.8+9e95cb9,Red Hat Enterprise Linux CoreOS 49.84.202210201521-0 (Ootpa),4.18.0-305.65.1.el8_4.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el8,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM,helm
+12.10.1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,,,SLIM,native
+12.10.1-rc1,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.80.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.6.0-rc,okd4,x86_64,v1.20.14+0d60930,Red Hat Enterprise Linux CoreOS 47.84.202204041239-0 (Ootpa),4.18.0-305.40.2.el8_4.x86_64,cri-o,1.20.7-2.rhaos4.7.git9f2a5c0.el8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,,,SLIM,native
+12.9.0-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,docker,20.10.18,AGENT,docker
+12.6.0-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,,,AGENT,native
+latest,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,,,AGENT,native
+latest,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1021-aws,docker,20.10.12,AGENT,docker
+dev,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+dev,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.6-100.fc36.x86_64,docker,20.10.22,SLIM,docker
+12.4.0-rc,,arm64,,Amazon Linux 2,4.14.268-205.500.amzn2.aarch64,docker,20.10.7,AGENT,docker
+12.4.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1017-aws,,,AGENT,native
+12.4.0,roks,x86_64,v1.22.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-175-generic,containerd,1.5.11,SLIM & AGENT,kubernetes & helm
+SMAGENT3619-linux-amd64,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.x86_64,docker,20.10.14,AGENT,docker
+12.9.1-rc2,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.7-100.fc35.x86_64,docker,20.10.21,SLIM,docker
+12.9.1-rc2,,arm64,,Fedora Linux 36 (Cloud Edition),6.0.7-200.fc36.aarch64,docker,20.10.21,SLIM,docker
+12.9.1-rc2,eks,x86_64,v1.22.15-eks-57e9f9a,Bottlerocket OS 1.10.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+0.0.zhongcheng,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,,,AGENT,native
+12.11.0-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-23-cloud-amd64,,,SLIM,native
+0.1.1dev,okd4,x86_64,v1.22.15+c763d11,Red Hat Enterprise Linux CoreOS 49.84.202212201621-0 (Ootpa),4.18.0-305.72.1.el8_4.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el8,AGENT,helm
+12.11.0-rc1,k8s,x86_64,v1.24.10,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+0.1.driver,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.x86_64,,,SLIM,native
+dev,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.5.0-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.5.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.16.19-100.fc34.x86_64,docker,20.10.14,AGENT,docker
+12.5.0-rc,okd4,x86_64,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203290727-0 (Ootpa),4.18.0-305.40.2.el8_4.x86_64,cri-o,1.21.6-2.rhaos4.8.gitb948fcd.2.el8,SLIM & AGENT,kubernetes & helm
+12.8.1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1084-aws,docker,20.10.7,AGENT,docker
+SMAGENT-4225-linux-arm64,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-arm64,docker,20.10.5+dfsg1,SLIM,docker
+SMAGENT-4225-linux-amd64,,x86_64,,Fedora Linux 35 (Cloud Edition),6.0.8-100.fc35.x86_64,docker,20.10.21,SLIM,docker
+12.9.0-rc1,,arm64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-arm64,docker,20.10.5+dfsg1,AGENT,docker
+12.9.0-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,AGENT,docker
+latest,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.4.13,AGENT,helm
+12.9.0-rc3,okd4,x86_64,v1.23.5+8471591,Red Hat Enterprise Linux CoreOS 410.84.202209161756-0 (Ootpa),4.18.0-305.62.1.el8_4.x86_64,cri-o,1.23.3-17.rhaos4.10.git016b1ca.el8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.5.10,SLIM,helm
+12.10.0-rc2,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,docker,20.10.21,SLIM,docker
+12.10.0-rc1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-22-cloud-amd64,,,SLIM,native
+12.6.0-rc,,x86_64,,Fedora 34 (Cloud Edition),5.17.6-100.fc34.x86_64,,,AGENT,native
+12.9.0-rc3,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-amd64,,,AGENT,native
+12.9.0-rc3,eks,arm64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.2 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Amazon Linux 2,5.10.144-127.601.amzn2.x86_64,,,AGENT,native
+latest,,x86_64,,SLES 15-SP4,5.14.21-150400.24.21-default,docker,20.10.17-ce,AGENT,docker
+dev,,zlinux,,Red Hat Enterprise Linux 8.4 (Ootpa),4.18.0-305.el8.s390x,docker,20.10.8,SLIM,docker
+SMAGENT3619-linux-amd64,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,docker,18.09.7,AGENT,docker
+latest,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.4.12,AGENT,helm
+12.7.1-rc,,x86_64,,Amazon Linux 2,4.14.281-212.502.amzn2.x86_64,,,AGENT,native
+dev,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+dev,eks,arm64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.10.1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,,,SLIM,native
+dev,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.8-200.fc37.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc2,roks,x86_64,v1.22.15+c763d11,Red Hat,3.10.0-1160.83.1.el7.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el7,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc3,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.x86_64,,,SLIM,native
+12.11.0-rc1,,arm64,,SLES 15-SP4,5.14.21-150400.24.41-default,docker,20.10.17-ce,SLIM,docker
+0.1.driver,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,,,SLIM,native
+dev,iks,x86_64,v1.24.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-202-generic,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+dev,k8s,x86_64,v1.25.6,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.x86_64,docker,20.10.14,AGENT,docker
+AGENT_PROBE,,,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1022-aws,docker,20.10.12,,
+AGENT_PROBE,,,,Fedora Linux 36 (Cloud Edition),6.0.5-200.fc36.aarch64,docker,20.10.21,,
+AGENT_PROBE,,,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,,
+12.9.0-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-amd64,,,AGENT,native
+12.10.0-rc1,eks,x86_64,v1.22.15-eks-fb459a0,Amazon Linux 2,5.4.219-126.411.amzn2.x86_64,docker,20.10.17,SLIM & AGENT,kubernetes & helm
+smagent-4261-linux-arm64,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+12.8.0-rc2,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.16.1.el8_6.x86_64,,,AGENT,native
+12.9.1-rc1,okd4,x86_64,v1.23.12+6b34f32,Red Hat Enterprise Linux CoreOS 410.84.202210211026-0 (Ootpa),4.18.0-305.65.1.el8_4.x86_64,cri-o,1.23.3-20.rhaos4.10.git89344de.el8,SLIM & AGENT,kubernetes & helm
+12.8.0,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.71.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-amd64,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-amd64,okd4,x86_64,v1.23.12+7566c4d,Red Hat Enterprise Linux CoreOS 410.84.202210251931-0 (Ootpa),4.18.0-305.65.1.el8_4.x86_64,cri-o,1.23.3-20.rhaos4.10.git89344de.el8,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-amd64,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.80.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+0.4.zzhongcheng3843,iks,x86_64,v1.24.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-200-generic,containerd,1.6.12,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,,,SLIM,native
+12.6.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.62.1.el7.x86_64,,,AGENT,native
+12.10.0-rc1,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202211291109-0 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,cri-o,1.24.3-6.rhaos4.11.gitc4567c0.el8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,x86_64,,Amazon Linux 2,5.10.155-138.670.amzn2.x86_64,,,SLIM,native
+12.9.0-rc2,,arm64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.aarch64,docker,20.10.18,AGENT,docker
+SMAGENT-4234-linux-amd64,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.4.13,SLIM,helm
+12.4.0,kops,x86_64,v1.21.9,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,AGENT,kubernetes
+12.4.0,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.9.1-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1088-aws,,,SLIM,native
+12.7.1-rc,gke,x86_64,v1.22.8-gke.202,Container-Optimized OS from Google,5.10.90+,containerd,1.5.4,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,iks,x86_64,v1.23.8+IKS,Ubuntu 18.04.6 LTS,4.15.0-188-generic,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,okd4,x86_64,v1.21.11+6b3cbdd,Red Hat Enterprise Linux CoreOS 48.84.202206281246-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.21.8-6.rhaos4.8.gitd78036c.el8,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.16.1.el8_6.x86_64,docker,20.10.17,AGENT,docker
+dev,kops,arm64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+12.11.0-rc2,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.8-100.fc36.x86_64,docker,20.10.23,SLIM,docker
+12.11.0-rc3,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc1,,arm64,,Fedora Linux 36 (Cloud Edition),6.1.8-100.fc36.aarch64,docker,20.10.23,SLIM,docker
+12.11.0-rc1,roks,x86_64,v1.22.15+c763d11,Red Hat,3.10.0-1160.83.1.el7.x86_64,cri-o,1.22.5-16.rhaos4.9.git88e9cdc.el7,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,,x86_64,,Amazon Linux 2,5.10.162-141.675.amzn2.x86_64,,,SLIM,native
+dev,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+12.7.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1078-aws,docker,20.10.7,AGENT,docker
+12.5.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1071-aws,,,AGENT,native
+12.5.0-rc,okd4,x86_64,v1.20.14+0d60930,Red Hat Enterprise Linux CoreOS 47.84.202203231256-0 (Ootpa),4.18.0-305.40.2.el8_4.x86_64,cri-o,1.20.7-2.rhaos4.7.git9f2a5c0.el8,SLIM & AGENT,kubernetes & helm
+12.8.1,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,docker,18.09.1,AGENT,docker
+12.8.1,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,,,AGENT,native
+latest,kops,x86_64,v1.21.9,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,AGENT,helm
+AGENT_PROBE,,,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.30.1.el9_0.x86_64,docker,20.10.21,,
+AGENT_PROBE,,,,Fedora Linux 35 (Cloud Edition),6.0.5-100.fc35.x86_64,docker,20.10.21,,
+AGENT_PROBE,,,,Amazon Linux 2,5.10.147-133.644.amzn2.x86_64,,,,
+12.9.0-rc1,,x86_64,,Amazon Linux 2,5.10.135-122.509.amzn2.x86_64,docker,20.10.17,AGENT,docker
+12.9.0-rc1,,x86_64,,Amazon Linux 2022,5.15.57-30.131.amzn2022.x86_64,,,AGENT,native
+smagent-4261-linux-arm64,,arm64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.6.1.el9_1.aarch64,docker,20.10.21,SLIM,docker
+12.8.0-rc2,eks,x86_64,v1.22.9-eks-810597c,Amazon Linux 2,5.4.196-108.356.amzn2.x86_64,docker,20.10.13,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,docker,20.10.12,SLIM,docker
+12.9.1-rc1,,arm64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,SLIM,docker
+12.9.1-rc1,eks,arm64,v1.22.15-eks-57e9f9a,Bottlerocket OS 1.10.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),5.18.18-100.fc35.x86_64,docker,20.10.17,AGENT,docker
+12.10.1-rc1,gke,x86_64,v1.24.7-gke.900,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+12.10.1,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+0.4.zhongcheng3843,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202212072103-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.3-7.rhaos4.11.gitae53655.el8,SLIM,helm
+12.9.0-rc2,eks,x86_64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.2 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.6.0,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1022-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,gke,x86_64,v1.23.12-gke.100,Container-Optimized OS from Google,5.10.133+,containerd,1.5.13,SLIM & AGENT,kubernetes & helm
+12.6.0-rc,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1021-aws,containerd,1.4.12,AGENT,kubernetes
+12.10.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,,,SLIM,native
+12.10.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1023-aws,,,SLIM,native
+latest,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,AGENT,native
+12.4.0-rc,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.x86_64,,,AGENT,native
+12.4.0-rc,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,,,AGENT,native
+12.4.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1068-aws,,,AGENT,native
+12.4.0,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,,,AGENT,native
+12.9.1-rc2,,arm64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.30.1.el9_0.aarch64,docker,20.10.21,SLIM,docker
+12.9.1-rc2,,x86_64,,Amazon Linux 2,5.10.149-133.644.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.8.0-rc1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.8.0-rc1,gke,x86_64,v1.22.8-gke.202,Container-Optimized OS from Google,5.10.90+,containerd,1.5.4,SLIM & AGENT,kubernetes & helm
+12.11.0-rc2,kops,arm64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+12.11.0-rc3,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+12.11.0-rc3,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.4.13,SLIM,helm
+latest,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+12.7.0-rc,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1075-aws,,,AGENT,native
+12.7.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.12-200.fc35.x86_64,,,AGENT,native
+12.10.1-rc1,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+latest,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,20.10.23,SLIM,docker
+12.5.0-rc,okd4,x86_64,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140855-0 (Ootpa),4.18.0-305.40.2.el8_4.x86_64,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.66.1.el7.x86_64,,,AGENT,native
+12.8.1,,x86_64,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.26.1.el8_6.x86_64,,,AGENT,native
+SMAGENT-4225-linux-arm64,,arm64,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,SLIM,docker
+AGENT_PROBE,,,,Red Hat Enterprise Linux 8.6 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,,,,
+12.9.0-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,,,AGENT,native
+12.8.0-rc2,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,,,AGENT,native
+12.8.0-rc2,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,,x86_64,,Amazon Linux 2,5.10.149-133.644.amzn2.x86_64,docker,20.10.17,SLIM,docker
+12.9.1-rc1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,docker,20.10.21,SLIM,docker
+12.9.1-rc1,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,,,SLIM,native
+smagent4078s390x5j,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+0.2.newgpg,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1088-aws,,,SLIM,native
+0.2.newgpg,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.30.1.el9_0.x86_64,,,SLIM,native
+12.9.1,eks,x86_64,v1.22.15-eks-fb459a0,Amazon Linux 2,5.4.219-126.411.amzn2.x86_64,docker,20.10.17,SLIM & AGENT,kubernetes & helm
+smagent4078s390x5i,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.0-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.5.0,roks,x86_64,v1.22.5+a36406b,Red Hat,3.10.0-1160.62.1.el7.x86_64,cri-o,1.22.3-3.rhaos4.9.git28c5a70.el7,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,,,SLIM,native
+12.10.0-rc1,kops,x86_64,v1.25.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.10.0-rc2,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-22-cloud-amd64,,,SLIM,native
+0.2.xiaoprobe1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,,,SLIM,native
+12.10.0-rc2,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+12.10.0-rc2,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM,helm
+12.10.0-rc1,,arm64,,Fedora Linux 36 (Cloud Edition),6.0.10-200.fc36.aarch64,docker,20.10.21,SLIM,docker
+12.10.1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,,,SLIM,native
+12.4.0,,x86_64,,Amazon Linux 2,4.14.273-207.502.amzn2.x86_64,docker,20.10.7,AGENT,docker
+12.9.1-rc2,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,docker,20.10.5+dfsg1,SLIM,docker
+12.9.1-rc2,,x86_64,,Debian GNU/Linux 10 (buster),4.19.0-21-cloud-amd64,,,SLIM,native
+12.7.1-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.18.9-100.fc35.x86_64,docker,20.10.17,AGENT,docker
+12.8.0-rc1,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,,,AGENT,native
+dev,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,23.0.1,SLIM,docker
+12.11.0-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,,,SLIM,native
+12.11.0-rc2,kops,x86_64,v1.24.10,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.11.0-rc3,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc3,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc3,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,docker,20.10.12,SLIM,docker
+12.7.0-rc,okd4,x86_64,v1.21.11+6b3cbdd,Red Hat Enterprise Linux CoreOS 48.84.202205131125-0 (Ootpa),4.18.0-305.45.1.el8_4.x86_64,cri-o,1.21.6-7.rhaos4.8.git8faeccb.2.el8,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1011-aws,,,AGENT,native
+dev,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1093-aws,docker,20.10.12,SLIM,docker
+12.10.1,,arm64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1093-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc1,kops,arm64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.5.10,SLIM,helm
+12.11.0-rc1,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.9.0,k8s,x86_64,v1.21.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,AGENT,helm
+12.9.0-rc3,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1020-aws,docker,20.10.12,AGENT,docker
+AGENT_PROBE,,,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,,
+12.9.0-rc1,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1020-aws,docker,20.10.12,AGENT,docker
+12.9.1-rc1,,arm64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.30.1.el9_0.aarch64,docker,20.10.21,SLIM,docker
+12.9.1-rc1,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.30.1.el9_0.x86_64,docker,20.10.21,SLIM,docker
+12.5.0-rc,okd4,x86_64,v1.22.5+a36406b,Red Hat Enterprise Linux CoreOS 49.84.202203311854-0 (Ootpa),4.18.0-305.40.2.el8_4.x86_64,cri-o,1.22.3-2.rhaos4.9.git28c5a70.el8,SLIM & AGENT,kubernetes & helm
+12.8.1-rc1,,x86_64,,Amazon Linux 2022,5.15.57-28.127.amzn2022.x86_64,docker,20.10.17,AGENT,docker
+12.8.1,kops,x86_64,v1.21.9,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.4.13,AGENT,helm
+0.4.zhongcheng3843,,x86_64,,Fedora Linux 36 (Cloud Edition),6.0.18-200.fc36.x86_64,,,SLIM,native
+0.4.zhongcheng3843,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,,,SLIM,native
+latest,iks,x86_64,v1.23.9+IKS,Ubuntu 18.04.6 LTS,4.15.0-191-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.76.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,,x86_64,,Amazon Linux 2,5.10.157-139.675.amzn2.x86_64,,,SLIM,native
+12.10.1-rc1,kops,arm64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+SMAGENT-4266-linux-amd64,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.4.13,SLIM,helm
+12.10.0-rc2,roks,x86_64,v1.22.8+9e95cb9,Red Hat,3.10.0-1160.80.1.el7.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el7,SLIM & AGENT,kubernetes & helm
+12.10.0-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1092-aws,docker,20.10.12,SLIM,docker
+12.6.0-rc,,arm64,,Amazon Linux 2,4.14.275-207.503.amzn2.aarch64,docker,20.10.13,AGENT,docker
+12.6.0-rc,okd4,x86_64,v1.21.8+ed4d8fd,Red Hat Enterprise Linux CoreOS 48.84.202204202010-0 (Ootpa),4.18.0-305.45.1.el8_4.x86_64,cri-o,1.21.6-3.rhaos4.8.git19780ee.2.el8,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+0.2.xiaoprobe1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,,,SLIM,native
+latest,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.76.1.el7.x86_64,,,AGENT,native
+12.4.0-rc,,x86_64,,Debian GNU/Linux 9 (stretch),4.9.0-18-amd64,docker,19.03.15,AGENT,docker
+12.4.0,,x86_64,,Fedora 34 (Cloud Edition),5.16.18-100.fc34.x86_64,docker,20.10.14,AGENT,docker
+12.4.0,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.62.1.el7.x86_64,docker,20.10.14,AGENT,docker
+12.9.1-rc2,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1088-aws,docker,20.10.7,SLIM,docker
+12.7.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.18.6-100.fc35.x86_64,docker,20.10.17,AGENT,docker
+dev,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.10-200.fc37.x86_64,docker,23.0.1,SLIM,docker
+dev,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+dev,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.10.1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,,,SLIM,native
+12.11.0-rc1,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1028-aws,docker,20.10.12,SLIM,docker
+12.11.0-rc2,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.x86_64,,,SLIM,native
+12.10.1,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,docker,20.10.17,SLIM,docker
+12.7.0-rc,roks,x86_64,v1.22.8+f34b40c,Red Hat,3.10.0-1160.66.1.el7.x86_64,cri-o,1.22.4-3.rhaos4.9.gitb6d3a87.el7,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,x86_64,,Amazon Linux 2022,5.15.29-16.111.amzn2022.x86_64,docker,20.10.13,AGENT,docker
+latest,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.66.1.el7.x86_64,docker,20.10.17,AGENT,docker
+SMAGENT-4468-linux-amd64,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.83.1.el7.x86_64,docker,20.10.23,SLIM,docker
+dev,kops,x86_64,v1.23.15,Ubuntu 22.04.1 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.5.0-rc,okd4,x86_64,v1.22.5+5c84e52,Red Hat Enterprise Linux CoreOS 49.84.202203290133-0 (Ootpa),4.18.0-305.40.2.el8_4.x86_64,cri-o,1.22.3-2.rhaos4.9.git28c5a70.el8,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1013-aws,,,AGENT,native
+12.7.0-rc,kops,x86_64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1022-aws,containerd,1.4.12,AGENT,helm
+12.7.0-rc,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,docker,20.10.12,AGENT,docker
+12.9.0-rc3,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+SMAGENT-4225-linux-amd64,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+AGENT_PROBE,,,,Debian GNU/Linux 10 (buster),4.19.0-21-arm64,docker,18.09.1,,
+12.9.0-rc1,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.15.0-1017-aws,containerd,1.5.10,AGENT,helm
+12.9.0-rc1,,arm64,,Fedora Linux 36 (Cloud Edition),5.19.11-200.fc36.aarch64,docker,20.10.18,AGENT,docker
+12.8.0-rc2,okd4,x86_64,v1.19.16+6175753,Red Hat Enterprise Linux CoreOS 46.82.202203141332-0 (Ootpa),4.18.0-193.79.1.el8_2.x86_64,cri-o,1.19.5-3.rhaos4.6.git91f8458.el8,SLIM & AGENT,kubernetes & helm
+12.8.0-rc2,okd4,x86_64,v1.20.15+98b2293,Red Hat Enterprise Linux CoreOS 47.84.202206302254-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.20.8-5.rhaos4.7.gitffd7f95.el8,SLIM & AGENT,kubernetes & helm
+12.5.0-rc,eks,x86_64,v1.21.5-eks-9017834,Amazon Linux 2,5.4.188-104.359.amzn2.x86_64,docker,20.10.13,SLIM & AGENT,kubernetes & helm
+SMAGENT-4225-linux-amd64,okd3,x86_64,v1.11.0+d4cacc0,CentOS Linux 7 (Core),3.10.0-1160.80.1.el7.x86_64,docker,1.13.1,SLIM & AGENT,kubernetes & helm
+0.2.newgpg,,x86_64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1022-aws,,,SLIM,native
+12.10.1-rc1,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+12.10.1-rc1,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.3.1.el8.x86_64,docker,20.10.22,SLIM,docker
+12.5.0,,x86_64,,Fedora 34 (Cloud Edition),5.17.4-100.fc34.x86_64,docker,20.10.14,AGENT,docker
+12.10.0-rc2,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-19-cloud-amd64,,,SLIM,native
+12.10.0-rc2,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,,,SLIM,native
+12.10.0-rc2,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202211291109-0 (Ootpa),4.18.0-372.32.1.el8_6.x86_64,cri-o,1.24.3-6.rhaos4.11.gitc4567c0.el8,SLIM,helm
+12.6.0-rc,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,docker,18.09.7,AGENT,docker
+12.10.0-rc1,kops,x86_64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.10.0-rc1,,x86_64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.x86_64,,,SLIM,native
+12.6.0-rc,,x86_64,,Fedora Linux 35 (Cloud Edition),5.17.6-200.fc35.x86_64,docker,20.10.16,AGENT,docker
+12.10.0-rc1,,arm64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1023-aws,docker,20.10.12,SLIM,docker
+12.10.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1089-aws,,,SLIM,native
+12.9.0-rc3,kops,arm64,v1.24.4,Ubuntu 20.04.5 LTS,5.15.0-1020-aws,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.9.0-rc3,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.4.0-rc,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.59.1.el7.x86_64,docker,20.10.13,AGENT,docker
+SMAGENT3619-linux-amd64,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+12.8.0-rc1,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1031-aws,containerd,1.5.10,AGENT,helm
+12.11.0-rc2,,arm64,,Fedora Linux 37 (Cloud Edition),6.1.8-200.fc37.aarch64,docker,20.10.23,SLIM,docker
+12.11.0-rc1,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1025-aws,docker,20.10.12,AGENT,docker
+dev,eks,arm64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+AGENT_PROBE,,,,Amazon Linux 2,5.10.147-133.644.amzn2.x86_64,docker,20.10.17,,
+AGENT_PROBE,,,,SLES 15-SP4,5.14.21-150400.24.28-default,docker,20.10.17-ce,,
+12.9.0-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-18-cloud-amd64,docker,20.10.5+dfsg1,AGENT,docker
+12.9.0-rc1,,x86_64,,Fedora Linux 36 (Cloud Edition),5.19.9-200.fc36.x86_64,docker,20.10.18,AGENT,docker
+12.9.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1084-aws,,,AGENT,native
+12.9.0-rc1,iks,x86_64,v1.23.10+IKS,Ubuntu 18.04.6 LTS,4.15.0-192-generic,containerd,1.6.8,SLIM & AGENT,kubernetes & helm
+12.9.1-rc1,,arm64,,Fedora Linux 35 (Cloud Edition),6.0.7-100.fc35.aarch64,docker,20.10.21,SLIM,docker
+12.9.1-rc1,kops,x86_64,v1.21.0,Ubuntu 20.04.5 LTS,5.15.0-1022-aws,containerd,1.4.13,SLIM,helm
+SMAGENT-4225-linux-s390x,,zlinux,,Red Hat Enterprise Linux 8.4 (Ootpa),4.18.0-305.el8.s390x,docker,20.10.8,SLIM,docker
+latest,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,okd4,x86_64,v1.22.15+568b938,Red Hat Enterprise Linux CoreOS 49.84.202211291357-0 (Ootpa),4.18.0-305.71.1.el8_4.x86_64,cri-o,1.22.5-14.rhaos4.9.git80a8e67.el8,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+12.10.1-rc1,kops,arm64,v1.26.0,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM,helm
+12.6.0-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,,,AGENT,native
+12.6.0-rc,,x86_64,,Ubuntu 16.04.7 LTS (Xenial Xerus),4.4.0-1128-aws,,,AGENT,native
+12.8.0-rc1,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1015-aws,docker,20.10.12,AGENT,docker
+12.8.0-rc1,,arm64,,Amazon Linux 2,4.14.285-215.501.amzn2.aarch64,docker,20.10.13,AGENT,docker
+dev,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,23.0.1,SLIM,docker
+12.8.1-rc1,,x86_64,,Fedora Linux 35 (Cloud Edition),5.18.17-100.fc35.x86_64,docker,20.10.17,AGENT,docker
+dev,,x86_64,,Red Hat Enterprise Linux 9.1 (Plow),5.14.0-162.12.1.el9_1.x86_64,docker,23.0.0,SLIM,docker
+dev,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+0.1.driver,,x86_64,,Ubuntu 20.04.5 LTS (Focal Fossa),5.15.0-1028-aws,,,SLIM,native
+12.11.0-rc2,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc2,,x86_64,,Fedora Linux 36 (Cloud Edition),6.1.9-100.fc36.x86_64,docker,23.0.0,SLIM,docker
+12.11.0-rc3,iks,x86_64,v1.25.6+IKS,Ubuntu 18.04.6 LTS,4.15.0-202-generic,containerd,1.6.15,SLIM & AGENT,kubernetes & helm
+do_not_patchelf-linux-amd64,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,docker,20.10.12,SLIM,docker
+dev,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+latest,,x86_64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1009-aws,docker,20.10.12,AGENT,docker
+12.6.0,eks,x86_64,v1.22.6-eks-7d68063,Amazon Linux 2,5.4.190-107.353.amzn2.x86_64,docker,20.10.13,SLIM & AGENT,kubernetes & helm
+12.7.0-rc3,okd4_z,zlinux,v1.21.8+ee73ea2,Red Hat Enterprise Linux CoreOS 48.84.202203140854-0 (Ootpa),4.18.0-305.40.2.el8_4.s390x,cri-o,1.21.5-3.rhaos4.8.gitaf64931.el8,SLIM,helm
+dev,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1093-aws,,,SLIM,native
+dev,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.7-200.fc37.x86_64,,,SLIM,native
+SMAGENT-4468-linux-amd64,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+remove_libksba-linux-amd64,,x86_64,,Red Hat Enterprise Linux 8.7 (Ootpa),4.18.0-425.10.1.el8_7.x86_64,docker,20.10.23,SLIM,docker
+SMAGENT-4468-linux-amd64,eks,x86_64,v1.22.15-eks-6d709f2,Bottlerocket OS 1.11.1 (aws-k8s-1.22),5.10.135,containerd,1.6.8+bottlerocket,SLIM & AGENT,kubernetes & helm
+12.10.1,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM,helm
+12.7.0-rc,kops,arm64,v1.21.0,Ubuntu 20.04.4 LTS,5.13.0-1022-aws,containerd,1.4.12,AGENT,helm
+12.7.0-rc,kops,x86_64,v1.22.0,Ubuntu 20.04.4 LTS,5.13.0-1022-aws,containerd,1.4.12,SLIM & AGENT,kubernetes & helm
+12.7.0-rc,okd4,x86_64,v1.22.8+f34b40c,Red Hat Enterprise Linux CoreOS 49.84.202206082248-0 (Ootpa),4.18.0-305.49.1.el8_4.x86_64,cri-o,1.22.5-3.rhaos4.9.gitb6d3a87.el8,SLIM & AGENT,kubernetes & helm
+12.8.1,,x86_64,,Red Hat Enterprise Linux 9.0 (Plow),5.14.0-70.22.1.el9_0.x86_64,docker,20.10.18,AGENT,docker
+SMAGENT-3959-linux-amd64,,x86_64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1031-aws,,,AGENT,native
+12.10.0-rc1,,arm64,,Ubuntu 22.04.1 LTS (Jammy Jellyfish),5.15.0-1026-aws,docker,20.10.12,SLIM,docker
+0.2.newgpg,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,,,SLIM,native
+12.10.1-rc1,,arm64,,Amazon Linux 2,5.10.157-139.675.amzn2.aarch64,docker,20.10.17,SLIM,docker
+12.5.0,,arm64,,Ubuntu 22.04 LTS (Jammy Jellyfish),5.15.0-1004-aws,docker,20.10.12,AGENT,docker
+12.5.0,,arm64,,Ubuntu 20.04.4 LTS (Focal Fossa),5.13.0-1022-aws,docker,20.10.12,AGENT,docker
+12.10.0-rc2,,arm64,,Amazon Linux 2022,5.15.73-45.135.amzn2022.aarch64,docker,20.10.17,SLIM,docker
+12.10.0-rc2,gke,x86_64,v1.23.12-gke.100,Container-Optimized OS from Google,5.10.133+,containerd,1.5.13,SLIM,helm
+12.6.0-rc,rancher,x86_64,v1.20.4,SUSE Linux Enterprise Server 15 SP2,5.3.18-24.67-default,docker,20.10.6-ce,SLIM & AGENT,kubernetes & helm
+12.9.0-rc2,eks,arm64,v1.22.10-eks-7dc61e8,Bottlerocket OS 1.9.2 (aws-k8s-1.22),5.10.130,containerd,1.6.6+bottlerocket,SLIM & AGENT,kubernetes & helm
+0.3.zhongcheng3924.1,,x86_64,,Red Hat Enterprise Linux Server 7.9 (Maipo),3.10.0-1160.80.1.el7.x86_64,,,SLIM,native
+12.4.0-rc,,x86_64,,Fedora 33 (Cloud Edition),5.14.18-100.fc33.x86_64,docker,20.10.12,AGENT,docker
+SMAGENT3619-linux-amd64,,x86_64,,Ubuntu 22.04 (Jammy Jellyfish),5.15.0-1004-aws,docker,20.10.12,AGENT,docker
+12.4.0-rc,,x86_64,,Red Hat Enterprise Linux 8.5 (Ootpa),4.18.0-348.20.1.el8_5.x86_64,docker,20.10.14,AGENT,docker
+12.8.0-rc1,,x86_64,,Fedora 34 (Cloud Edition),5.17.12-100.fc34.x86_64,docker,20.10.17,AGENT,docker
+12.8.0,,x86_64,,Fedora Linux 36 (Cloud Edition),5.18.17-200.fc36.x86_64,,,AGENT,native
+dev,eks,arm64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM,helm
+dev,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
+12.11.0-rc1,,x86_64,,Debian GNU/Linux 11 (bullseye),5.10.0-21-cloud-amd64,,,SLIM,native
+12.11.0-rc2,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM,helm
+12.11.0-rc3,eks,x86_64,v1.22.17-eks-cab6f26,Bottlerocket OS 1.12.0 (aws-k8s-1.22),5.10.157,containerd,1.6.15+bottlerocket,SLIM,helm
+dev,,x86_64,,Fedora Linux 37 (Cloud Edition),6.1.9-200.fc37.x86_64,,,SLIM,native
+12.11.0-rc3,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,,,SLIM,native
+12.11.0-rc1,,x86_64,,Ubuntu 18.04.6 LTS (Bionic Beaver),5.4.0-1094-aws,,,SLIM,native
+12.11.0-rc1,gke,x86_64,v1.24.8-gke.2000,Container-Optimized OS from Google,5.10.147+,containerd,1.6.6,SLIM & AGENT,kubernetes & helm
+drift,okd4,x86_64,v1.24.6+5658434,Red Hat Enterprise Linux CoreOS 411.86.202301102150-0 (Ootpa),4.18.0-372.36.1.el8_6.x86_64,cri-o,1.24.4-3.rhaos4.11.git1d7361a.el8,AGENT,helm
+12.11.0-rc1,kops,arm64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1028-aws,containerd,1.6.10,SLIM,helm
+SMAGENT-4468-linux-amd64,k8s,x86_64,v1.23.0,Ubuntu 20.04.2 LTS,5.4.0-1038-aws,docker,20.10.6,SLIM & AGENT,kubernetes & helm
+SMAGENT-4468-linux-amd64,kops,x86_64,v1.26.1,Ubuntu 20.04.5 LTS,5.15.0-1026-aws,containerd,1.6.10,SLIM & AGENT,kubernetes & helm
